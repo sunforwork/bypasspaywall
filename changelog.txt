@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Ruhr Nachrichten (+ Media Group Westfalen; opt-in to custom sites)
+Fix Bloomberg (xhr; disable Dark Reader)
 Fix El Diario Vasco (mobile amp-redirect)
 Fix New Scientist (regwall)
 Fix Star Tribune (mobile)
