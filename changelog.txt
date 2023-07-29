@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Mannheimer Morgen (Haas)
 Add Ruhr Nachrichten (+ Media Group Westfalen; opt-in to custom sites)
 Add Stereogum
 Fix Automobilwoche.de (js)
