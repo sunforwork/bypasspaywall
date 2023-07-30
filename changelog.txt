@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.2.7.0 (2023-07-30)
 Add Mannheimer-Morgen.de (Haas)
 Add RuhrNachrichten.de (+ Media Group Westfalen; opt-in to custom sites)
 Add Stereogum
