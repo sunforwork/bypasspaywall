@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add Crikey.com.au
 Fix Grupo Vocento (limit amp-redirect)
+Fix The Economic Times (update mobile redirect)
 Update custom sites (add_ext_link: Google webcache)
 
 * v3.2.7.0 (2023-07-30)
@@ -1269,7 +1270,7 @@ Fix National Geographic USA
 Fix Prensa Iberica
 Fix Saechsische Zeitung (amp)
 Fix The Daily Telegraph (au)
-Fix The Economic Times (mobile/India)
+Fix The Economic Times (mobile)
 Fix Valor Economico (Google webcache)
 
 * v2.2.1.0 (2021-05-16)
