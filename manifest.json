@@ -70,6 +70,7 @@
     "*://*.atlantico.fr/*",
     "*://*.augsburger-allgemeine.de/*",
     "*://*.auto-motor-und-sport.de/*",
+    "*://*.autocar.co.uk/*",
     "*://*.automobilwoche.de/*",
     "*://*.autonews.com/*",
     "*://*.autoplus.fr/*",
@@ -758,5 +759,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.2.7.4"
+  "version": "3.2.7.5"
 }
