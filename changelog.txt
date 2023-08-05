@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Autocar.co.uk
+Add Bar and Bench (India)
 Add Crikey.com.au
 Fix EUobserver (css)
 Fix Grupo Vocento (limit amp-redirect)

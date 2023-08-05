@@ -78,6 +78,7 @@
     "*://*.azcentral.com/*",
     "*://*.backpacker.com/*",
     "*://*.baltimoresun.com/*",
+    "*://*.barandbench.com/*",
     "*://*.barrons.com/*",
     "*://*.bd.nl/*",
     "*://*.belfasttelegraph.co.uk/*",
@@ -759,5 +760,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.2.7.6"
+  "version": "3.2.7.7"
 }
