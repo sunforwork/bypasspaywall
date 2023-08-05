@@ -594,6 +594,7 @@
     "*://*.sun-sentinel.com/*",
     "*://*.suomensotilas.fi/*",
     "*://*.svz.de/*",
+    "*://*.swarajyamag.com/*",
     "*://*.syracuse.com/*",
     "*://*.tampabay.com/*",
     "*://*.techinasia.com/*",
@@ -761,5 +762,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.2.7.7"
+  "version": "3.2.7.8"
 }
