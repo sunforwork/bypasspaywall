@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.2.8.0 (2023-08-06)
 Add America's Test Kitchen
 Add Autocar.co.uk
 Add Bar and Bench (India)
