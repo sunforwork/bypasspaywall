@@ -2,8 +2,10 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add 4 more Lee Enterprises Group sites
 Fix Harvard Business Review (js)
 Fix Stylist.co.uk (css)
+Fix The Toronto Star (homepage)
 
 * v3.2.8.0 (2023-08-06)
 Add America's Test Kitchen
