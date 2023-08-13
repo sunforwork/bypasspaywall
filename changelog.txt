@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add 4 more Lee Enterprises Group sites
+Add LaStampa.it (GEDI)
 Add The American Conservative
 Add The Week (UK & USA)
 Remove The Hollywood Reporter (no paywall)
