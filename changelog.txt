@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.2.9.0 (2023-08-13)
 Add 4 more Lee Enterprises Group sites
 Add LaStampa.it (GEDI)
 Add The American Conservative
