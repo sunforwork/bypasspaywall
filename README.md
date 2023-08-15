@@ -371,7 +371,7 @@ Grouped in options:\
 [St. Paul Pioneer Press](https://www.twincities.com) -
 [The Denver Post](https://www.denverpost.com) -
 [The Mercury News](https://www.mercurynews.com) -
-[The Press-Enterprise](https://www.pe.com)\
+[The Press-Enterprise](https://www.pressenterprise.com)\
 *[The Atlanta Journal-Constitution](https://www.ajc.com) + Cox First Media* (opt-in to custom sites)\
 *TownNews sites (Blox CMS)* sites (opt-in to custom sites)\
 *Tribune Publishing Company* sites like\
