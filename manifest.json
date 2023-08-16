@@ -261,6 +261,7 @@
     "*://*.genomeweb.com/*",
     "*://*.gestion.pe/*",
     "*://*.glassdoor.com/*",
+    "*://*.globalcapital.com/*",
     "*://*.globes.co.il/*",
     "*://*.globo.com/*",
     "*://*.goldcoastbulletin.com.au/*",
@@ -291,6 +292,7 @@
     "*://*.humanite.fr/*",
     "*://*.humo.be/*",
     "*://*.ideal.es/*",
+    "*://*.iflr.com/*",
     "*://*.ijmuidercourant.nl/*",
     "*://*.ilfattoquotidiano.it/*",
     "*://*.ilfoglio.it/*",
@@ -316,7 +318,10 @@
     "*://*.inkl.com/*",
     "*://*.inquirer.com/*",
     "*://*.insidehighered.com/*",
+    "*://*.institutionalinvestor.com/*",
+    "*://*.insuranceinsider.com/*",
     "*://*.intelligentinvestor.com.au/*",
+    "*://*.internationaltaxreview.com/*",
     "*://*.internazionale.it/*",
     "*://*.intrafish.com/*",
     "*://*.intrafish.no/*",
@@ -416,6 +421,7 @@
     "*://*.madison.com/*",
     "*://*.mainichi.jp/*",
     "*://*.mallorcazeitung.es/*",
+    "*://*.managingip.com/*",
     "*://*.mannheimer-morgen.de/*",
     "*://*.marca.com/*",
     "*://*.margriet.nl/*",
@@ -672,6 +678,7 @@
     "*://*.townandcountrymag.com/*",
     "*://*.townsvillebulletin.com.au/*",
     "*://*.tradewindsnews.com/*",
+    "*://*.trading-risk.com/*",
     "*://*.trailrunnermag.com/*",
     "*://*.tri-cityherald.com/*",
     "*://*.triathlete.com/*",
@@ -769,5 +776,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.2.9.1"
+  "version": "3.2.9.2"
 }
