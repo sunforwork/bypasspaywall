@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.0.0 (2023-08-20)
 Add Cieletespace.fr
 Add Delinian Group
 Add Pensions & Investments (Crain)
