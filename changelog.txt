@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Cieletespace.fr
 Add Delinian Group
 Add Pensions & Investments (Crain)
 Add Precision Medicine Online (Crain)
