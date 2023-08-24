@@ -1169,7 +1169,7 @@ else if (matchDomain(de_madsack_domains) || document.querySelector('link[href*="
   }
 }
 
-else if (matchDomain('ruhrnachrichten.de') || document.querySelector('div.mgw-integration > a.mgw__link')) {
+else if (matchDomain('ruhrnachrichten.de') || document.querySelector('a.mgw-logo[href^="https://mgw.de"]')) {
   let paywall = document.querySelector('body.is_plus_article');
   if (paywall && dompurify_loaded) {
     paywall.classList.remove('is_plus_article');
