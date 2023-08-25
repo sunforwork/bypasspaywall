@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add LeTemps.ch
 Remove DN.no (fix obsolete)
 Fix Media Group Westfalen (identify sites)
 Fix Mediahuis Noord (json)
