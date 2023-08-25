@@ -2261,7 +2261,7 @@ else if (matchDomain(['lc.nl', 'dvhn.nl']) || document.querySelector('link[href*
         if (url_nuxt && !window.location.pathname.includes(url_nuxt))
           refreshCurrentTab();
         else if (json.includes(',body:')) {
-          let json_text = json.split(',body:')[1].split(/,(leadText|brand_key|tts):/)[0].replace(/([{,])(((__)?type(name)?|attributes|author|caption|children|code|href|id|image(Alt|Url)|insertbox_(head|text)|key|link|photographer|rel|relation|section|sourceId|target|text|title|url|value)\d?)(?=:)/g, "$1\"$2\"").replace(/(Image\\":)(\d)([,}])/g, '$1\\"$2\\"$3').replace(/\":(\[)?([\w\$\.]+)([\]},])/g, "\":$1\"$2\"$3");
+          let json_text = json.split(',body:')[1].split(/,(leadText|brand_key|tts):/)[0].replace(/([{,])(\w+)(?=:(["\{\[]|[\w$]{1,2}[,\}]))/g, "$1\"$2\"").replace(/(Image\\":)(\d)([,}])/g, '$1\\"$2\\"$3').replace(/\":(\[)?([\w\$\.]+)([\]},])/g, "\":$1\"$2\"$3");
           let article = document.querySelector('div.content');
           if (article) {
             article.innerHTML = '';

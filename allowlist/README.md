@@ -6,7 +6,9 @@
 
 ### Windows
 
-Run as administrator one of the reg-files in [allowlist-downloads](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/tree/master/allowlist)\
+Run as administrator one of the reg-files in [allowlist-downloads](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/tree/master/allowlist)
+* for Edge 116+ you also need to run the *Forcelist* reg-file (also undo reg-file provided) or switch to *Load unpacked* installation.
+
 If you already added extensions to the allowlist than you should change "1" to a new value (also change name of HLM-key for beta/developer versions of browsers).\
 To add more extensions to the allowlist you can add more lines.\
 Example Chrome-regfile:
