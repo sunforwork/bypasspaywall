@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Fix Forbes (menu)
 Fix Star Tribune (css)
+Fix WSJ (amp live coverage)
 Maintenance background tab
 
 * v3.3.1.0 (2023-08-27)
