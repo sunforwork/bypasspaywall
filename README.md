@@ -71,7 +71,7 @@ For new (updated) sites you also have to opt-in to custom sites/request host per
 * If a site doesn't work, first try to turn off your adblocker (or other extension) and refresh page.
 * Make sure the (new) site is checked under Options.
 * Clear cookies by extension's icon (popup) and grant permission for site (or opt-in to custom sites)
-* You will be logged out for most of the sites you have enabled.
+* You will be logged out for some of the sites you have enabled.
 * Make sure you're running the latest version of Bypass Paywalls Clean.
 * Some sites need to redirect to an amp-page (add an exception in your `Redirect AMP to HTML` or `DuckDuckGo Privacy Essentials` extension or disable Brave > Shields > Auto-redirect AMP pages).
 * If none of these work, you can [submit an issue](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/issues).
