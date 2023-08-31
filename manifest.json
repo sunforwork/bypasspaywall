@@ -546,6 +546,7 @@
     "*://*.repubblica.it/*",
     "*://*.republicain-lorrain.fr/*",
     "*://*.reuters.com/*",
+    "*://*.revistaoeste.com/*",
     "*://*.revueconflits.com/*",
     "*://*.rhein-zeitung.de/*",
     "*://*.richmond.com/*",
@@ -778,5 +779,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.1.5"
+  "version": "3.3.1.6"
 }

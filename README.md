@@ -927,6 +927,7 @@ Grouped in options:\
 [Grupo Abril](https://grupoabril.com.br) -
 [O Estado de S. Paulo](https://estadao.com.br) -
 [O Globo](https://oglobo.globo.com) -
+[Revista Oeste](https://revistaoeste.com) -
 [Valor Econômico](https://valor.globo.com)
 
 Grouped in options:\
