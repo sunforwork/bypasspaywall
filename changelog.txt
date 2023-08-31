@@ -3,10 +3,12 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Fix Forbes (menu)
+Fix Nikkei Asian Review (Google webcache)
 Fix Scientific American (js)
 Fix Star Tribune (css)
 Fix WSJ (amp live coverage)
 Maintenance background tab
+Fix for Kiwi Browser 116 (refresh)
 
 * v3.3.1.0 (2023-08-27)
 Add Bridge Tower Media (opt-in to custom sites)
@@ -91,7 +93,7 @@ Add TorStar local
 Add Weltkunst.de
 Fix Ad Age (js)
 Fix Australian Community Media (css & identify sites)
-Fix Euromoney (ld_google_webcache)
+Fix Euromoney (Google webcache)
 Fix Medium (identify member-only)
 Fix Puck.news (cached articles only)
 Fix Star Tribune (images/comments)
