@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Fortune (css)
 Fix Forbes (menu)
 Fix Nikkei Asian Review (Google webcache)
 Fix Scientific American (js)
