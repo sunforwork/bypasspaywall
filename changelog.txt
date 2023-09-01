@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Revista Oeste (Brazil)
+Fix BQ Prime (js)
 Fix Fortune (css)
 Fix Forbes (menu)
 Fix Groupe SynerJ Media
