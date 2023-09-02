@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Beleggersbelangen.nl (Roularta)
 Add Revista Oeste (Brazil)
 Add Wissenschaft.de
 Fix BQ Prime (js)
