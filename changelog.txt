@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+`
+* v3.3.2.0 (2023-09-03)
 Add Beleggersbelangen.nl (Roularta)
 Add Revista Oeste (Brazil)
 Add The Scientist (archive)
