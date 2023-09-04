@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Inc42 (js)
 Fix Tes Magazine (css)
 Update block general paywall script (fix Ippen.space)
 
