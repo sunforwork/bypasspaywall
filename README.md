@@ -73,7 +73,7 @@ For new (updated) sites you also have to opt-in to custom sites/request host per
 * Clear cookies by extension's icon (popup) and grant permission for site (or opt-in to custom sites)
 * You will be logged out for some of the sites you have enabled.
 * Make sure you're running the latest version of Bypass Paywalls Clean.
-* Some sites need to redirect to an amp-page (add an exception in your `Redirect AMP to HTML` or `DuckDuckGo Privacy Essentials` extension or disable Brave > Shields > Auto-redirect AMP pages).
+* Some sites need to redirect to an amp-page (add an exception in your `Redirect AMP to HTML` or `DuckDuckGo Privacy Essentials` extension or disable in Brave > Shields > Auto-redirect AMP pages or in Kiwi Browser (Android) > Settings > Privacy and security > Remove AMP).
 * If none of these work, you can [submit an issue](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/issues).
 * This extension works best alongside the adblocker [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm).
 * If you live in the EU, also consider adding these filters to your adblocker (in order to remove cookie warnings): [Easylist Cookies](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt) | [I don't care about cookies custom filter](https://www.i-dont-care-about-cookies.eu/abp). Some sites need to set a consent-cookie for (social) media.
