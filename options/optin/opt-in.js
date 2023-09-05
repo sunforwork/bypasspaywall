@@ -104,4 +104,23 @@ window.addEventListener("load", function () {
         });
         update_enabled.innerText = 'NO';
     });
+
+    var counter_enabled = document.getElementById('counter-enabled');
+    ext_api.storage.local.get({counter: true}, function (result) {
+        counter_enabled.innerText = result.counter ? 'YES' : 'NO';
+    });
+
+    document.getElementById("counter-enable").addEventListener("click", function () {
+        ext_api.storage.local.set({
+            "counter": true
+        });
+        counter_enabled.innerText = 'YES';
+    });
+
+    document.getElementById("counter-disable").addEventListener("click", function () {
+        ext_api.storage.local.set({
+            "counter": false
+        });
+        counter_enabled.innerText = 'NO';
+    });
 });
