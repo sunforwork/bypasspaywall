@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add PourLaScience.fr
+Add SpringerMedizin.de
 Fix Automobilwoche.de (js)
 Fix Inc42 (js)
 Fix MarketWatch (amp-redirect)
