@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.3.0 (2023-09-10)
 Add PourLaScience.fr
 Add SpringerMedizin.de
 Fix Automobilwoche.de (js)
