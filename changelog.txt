@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix South China Morning Post (mobile & amp)
 
 * v3.3.3.0 (2023-09-10)
 Add PourLaScience.fr
