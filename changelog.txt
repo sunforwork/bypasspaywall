@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.4.0 (2023-09-17)
 Add Cambio Colombia
 Add The News Minute (India)
 Add Vikatan (India)
