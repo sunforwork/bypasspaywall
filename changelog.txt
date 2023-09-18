@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix The Week (css)
+Update custom sites (import - remove obsolete)
 
 * v3.3.4.0 (2023-09-17)
 Add Cambio Colombia

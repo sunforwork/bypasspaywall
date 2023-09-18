@@ -448,7 +448,6 @@ Grouped in options:\
 [The Telegraph](https://www.telegraph.co.uk) -
 [The Times (link to archive.is)](https://www.thetimes.co.uk) -
 [The Times Literary Supplement](https://www.the-tls.co.uk) -
-[The Week](https://www.theweek.co.uk) -
 [UnHerd](https://unherd.com)
 
 Grouped in options:\
@@ -973,7 +972,7 @@ Remember to check the [previous requests](https://gitlab.com/magnolia1234/bypass
 3. Disable Javascript on the site (by browser, uBlock Origin or other extension).
 4. Add the domain as custom site for more bypass options.
 5. Open page in reader view (by browser or extension).
-6. Try one of the archive sites (for Google Search Tool test url & copy html (tab) code to https://codebeautify.org/htmlviewer or https://html.onlineviewer.net).
+6. Try one of the archive sites (for Google Search Tool test url & copy html (tab) code to https://codebeautify.org/htmlviewer).
 
 ### Add custom site
 Add your own custom site (also for testing).  
