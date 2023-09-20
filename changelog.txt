@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Remove HBR China (fix obsolete)
 Fix The Week (css)
+Update block general paywall script (fix BlueConic)
 Update custom sites (import - remove obsolete)
 
 * v3.3.4.0 (2023-09-17)
