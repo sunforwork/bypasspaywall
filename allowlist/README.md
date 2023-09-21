@@ -6,8 +6,11 @@
 
 ### Windows
 
+Advance Notice: after adding the allowlist-policy you'll get a message *Your browser is managed by your organisation* on the extensions page (and some settings like Secure DNS are disabled).\
+To remove this message you'll have to remove the added policy from the registry again (run regedit and for Chrome check HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome).
+
 Run as administrator one of the reg-files in [allowlist-downloads](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/tree/master/allowlist)
-* for Edge 116+ you also need to run the *Forcelist* reg-file (also undo reg-file provided) or switch to *Load unpacked* installation.
+* for Edge 116+ you may also need to run the *Forcelist* reg-file (also undo reg-file provided) or switch to *Load unpacked* installation.
 
 If you already added extensions to the allowlist than you should change "1" to a new value (also change name of HLM-key for beta/developer versions of browsers).\
 To add more extensions to the allowlist you can add more lines.\
@@ -19,7 +22,7 @@ Windows Registry Editor Version 5.00
 "2"="extension-id2"
 ```
 
-You can also run the PowerShell script `bypass_paywalls_clean_allowlist.ps1` (as administrator) to add extension to the allowlist (script checks if extension already allowed or adds new registry-key).\
+You can also run the PowerShell script *bypass_paywalls_clean_allowlist.ps1* (as administrator) to add extension to the allowlist (script checks if extension already allowed or adds new registry-key).\
 For the parameter browser enter chrome, edge or brave.
 
 ### macOS
