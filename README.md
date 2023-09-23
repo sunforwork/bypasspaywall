@@ -56,7 +56,7 @@ If you're familiar with Git(Hub)-clients you can also clone this repo and update
 Visit the [Firefox repository](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean) of Bypass Paywall Clean.
 
 #### iOS/iPadOS
-Use adblocker with custom (content)filter: https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters
+Use adblocker with custom (content)filter & userscript (manager): https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters (read instructions).
 
 ### Update
 For crx-installation: extension will update automatically or check for updates (in chrome://extensions).\
@@ -285,6 +285,7 @@ Grouped in options:\
 
 ##### Local USA news
 [Albuquerque Journal](https://www.abqjournal.com) -
+[Arkansas Democrat-Gazette](https://www.arkansasonline.com) -
 [Honolulu Star-Advertiser](https://www.staradvertiser.com) -
 [Los Angeles Times](https://www.latimes.com) -
 [Mountain View Voice](https://www.mv-voice.com) -
