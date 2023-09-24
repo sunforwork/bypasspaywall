@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.5.0 (2023-09-24)
 Add Arkansas Democrat-Gazette
 Add Incisive Media (opt-in to custom sites)
 Add Vol.at
