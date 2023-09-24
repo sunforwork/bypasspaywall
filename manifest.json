@@ -707,6 +707,7 @@
     "*://*.vn.nl/*",
     "*://*.vogue.com/*",
     "*://*.voguebusiness.com/*",
+    "*://*.vol.at/*",
     "*://*.volkskrant.nl/*",
     "*://*.vosgesmatin.fr/*",
     "*://*.vulture.com/*",
@@ -778,5 +779,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.4.6"
+  "version": "3.3.4.7"
 }
