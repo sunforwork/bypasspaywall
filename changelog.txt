@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Conde Nast Traveler
+Add Salzburger Nachrichten
 Add The Columbian
 Fix Mediahuis Noord (json)
 Fix Mexico News Daily
