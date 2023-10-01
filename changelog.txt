@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.6.0 (2023-10-01)
 Add Conde Nast Traveler
 Add Salzburger Nachrichten
 Add The Columbian
