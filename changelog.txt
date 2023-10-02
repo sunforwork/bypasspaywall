@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Mediahuis Nederland Regional (js)
 
 * v3.3.6.0 (2023-10-01)
 Add Conde Nast Traveler
@@ -1269,7 +1270,7 @@ Add Ad Age & Automotive News (group Crain Communications)
 Add MediaNews Group (local USA)
 Add The Intercept
 Remove Slader (obsolete)
-Fix group Mediahuis Nederland Regional
+Fix Mediahuis Nederland Regional
 Fix Medium (timing)
 Fix The Australian
 Fix The Daily Beast (proper/images)
@@ -1345,7 +1346,7 @@ Fix blocked referer
 Update custom sites (set useragent Bingbot)
 
 * v2.2.6.0 (2021-06-20)
-Add group Mediahuis Nederland Regional
+Add Mediahuis Nederland Regional
 Remove The Northern Star (obsolete)
 Fix Atlantico.fr
 Fix Boston Globe (no opt-in)
