@@ -325,6 +325,7 @@
     "*://*.institutionalinvestor.com/*",
     "*://*.insuranceinsider.com/*",
     "*://*.intelligentinvestor.com.au/*",
+    "*://*.interestingengineering.com/*",
     "*://*.internationaltaxreview.com/*",
     "*://*.internazionale.it/*",
     "*://*.intrafish.com/*",
@@ -783,5 +784,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.6.1"
+  "version": "3.3.6.2"
 }

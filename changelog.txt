@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Interesting Engineering
 Fix Mediahuis Nederland Regional (js)
 
 * v3.3.6.0 (2023-10-01)
