@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Bhaskar (India)
+Add Granta Magazine (UK)
 Add Interesting Engineering
 Fix Media Group Westfalen
 Fix Mediahuis Nederland Regional (js)

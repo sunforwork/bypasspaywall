@@ -275,6 +275,7 @@
     "*://*.goodhousekeeping.com/*",
     "*://*.gooieneemlander.nl/*",
     "*://*.gq.com/*",
+    "*://*.granta.com/*",
     "*://*.groene.nl/*",
     "*://*.grubstreet.com/*",
     "*://*.haaretz.co.il/*",
@@ -786,5 +787,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.6.5"
+  "version": "3.3.6.6"
 }
