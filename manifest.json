@@ -710,6 +710,7 @@
     "*://*.varmatin.com/*",
     "*://*.vegetariantimes.com/*",
     "*://*.vikatan.com/*",
+    "*://*.vn.at/*",
     "*://*.vn.nl/*",
     "*://*.vogue.com/*",
     "*://*.voguebusiness.com/*",
@@ -787,5 +788,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.6.6"
+  "version": "3.3.6.7"
 }
