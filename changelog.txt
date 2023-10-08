@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.7.0 (2023-10-08)
 Add Bhaskar (India)
 Add Granta Magazine (UK)
 Add Interesting Engineering
