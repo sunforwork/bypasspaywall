@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Remove Mediahuis Nederland Regional (fix obsolete)
 Fix BusinessPost.ie (js)
+Fix Estadao.com.br (js)
 Fix NyTeknik.se
 Fix Tuttosport (image)
 
