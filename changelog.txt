@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Mz.de & Volksstimme.de
 Remove Mediahuis Nederland Regional (fix obsolete)
 Fix BusinessPost.ie (js)
 Fix Estadao.com.br (js)
