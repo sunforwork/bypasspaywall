@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.3.9.0 (2023-10-22)
 Add Balkan Insight
 Add Groupe Quebecor
 Add Inside Retail (opt-in to custom sites)
