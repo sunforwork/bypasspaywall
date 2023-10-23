@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Harvard Business Review (cookie)
 
 * v3.3.9.0 (2023-10-22)
 Add Balkan Insight
