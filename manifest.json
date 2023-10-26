@@ -144,7 +144,6 @@
     "*://*.cmjornal.pt/*",
     "*://*.cnbc.com/*",
     "*://*.cntraveler.com/*",
-    "*://*.codesports.com.au/*",
     "*://*.columbian.com/*",
     "*://*.commentary.org/*",
     "*://*.commercialappeal.com/*",
@@ -793,5 +792,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.9.4"
+  "version": "3.3.9.5"
 }

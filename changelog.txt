@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Remove CodeSports.com.au (fix obsolete)
 Fix Apollo Magazine
 Fix Barron's (amp-redirect)
 Fix Harvard Business Review (cookie)
