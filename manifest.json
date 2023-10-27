@@ -747,6 +747,7 @@
     "*://*.yorkshirepost.co.uk/*",
     "*://*.zeit.de/*",
     "*://*.zerohedge.com/*",
+    "*://*.amplitude.com/*",
     "*://*.ampproject.org/*",
     "*://*.axate.io/*",
     "*://*.blueconic.net/*",
@@ -791,5 +792,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.3.9.6"
+  "version": "3.3.9.7"
 }
