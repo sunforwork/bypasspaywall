@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Remove CodeSports.com.au (fix obsolete)
+Remove FnLondon.com (fix obsolete)
 Remove Hln.be (fix obsolete)
 Remove VosgesMatin.fr (fix obsolete)
 Fix Albuquerque Journal (css)
@@ -1350,7 +1351,7 @@ Fix Australia Nine sites
 Fix Commentary Magazine (new domain)
 Fix Gestion & El Comercio (Peru)
 Fix Grupo Vocento
-Fix Financial News (London)
+Fix FnLondon.com
 Fix The Athletic (podcast)
 Fix WSJ (amp homepage link)
 Update remove cookies (faster)
