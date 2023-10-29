@@ -9,6 +9,8 @@
 Advance Notice: after adding the allowlist-policy you'll get a message *Your browser is managed by your organisation* on the extensions page (and some settings like Secure DNS are disabled).\
 To remove this message you'll have to remove the added policy from the registry again (run regedit and for Chrome check HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome).
 
+If you still want to add the extension to the allowlist:
+
 Run as administrator one of the reg-files in [allowlist-downloads](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/tree/master/allowlist)
 * for Edge 116+ you may also need to run the *Forcelist* reg-file (also undo reg-file provided) or switch to *Load unpacked* installation.
 
