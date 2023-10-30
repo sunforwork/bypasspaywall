@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix WSJ (Googlebot for cn/jp subdomain)
 Update custom sites (link to 1ft.io)
 
 * v3.4.0.0 (2023-10-29)
