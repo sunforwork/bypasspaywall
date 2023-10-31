@@ -652,6 +652,7 @@
     "*://*.thehill.com/*",
     "*://*.thehindu.com/*",
     "*://*.thehindubusinessline.com/*",
+    "*://*.theimpression.com/*",
     "*://*.theintercept.com/*",
     "*://*.thejuggernaut.com/*",
     "*://*.thelawyersdaily.ca/*",
@@ -793,5 +794,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.0.1"
+  "version": "3.4.0.2"
 }
