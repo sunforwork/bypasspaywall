@@ -615,6 +615,7 @@
     "*://*.stylist.co.uk/*",
     "*://*.sudinfo.be/*",
     "*://*.sudouest.fr/*",
+    "*://*.sueddeutsche.de/*",
     "*://*.sun-sentinel.com/*",
     "*://*.suomensotilas.fi/*",
     "*://*.svz.de/*",
@@ -796,5 +797,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.0.4"
+  "version": "3.4.0.5"
 }

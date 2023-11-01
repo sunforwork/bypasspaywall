@@ -32,7 +32,7 @@ You can add/pin the extension icon to the toolbar with the toolbar extensions me
 5. Enable Developer Mode.
 6. Click `Load unpacked` and select/open the extension folder (contains file manifest.json).
 
-*  By default BPC has limited permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for permission for current site).
+*  By default BPC has limited host permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for host permission for current site).
 
 If you're familiar with Git(Hub)-clients you can also clone this repo and update the extension that way (load unpacked folder used by Git(Hub)-client).
 
@@ -44,7 +44,7 @@ If you're familiar with Git(Hub)-clients you can also clone this repo and update
 3. Enable Developer Mode.
 4. Drag your crx-file anywhere on the page to import it (when you have an active 'load unpacked' installation, first remove it (and backup your custom sites); for automatic updates).
 
-* By default BPC has limited permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for permission for current site).
+* By default BPC has limited permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for host permission for current site).
 
 #### Android
 1. Install [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=nl) from the Google PlayStore.
@@ -60,7 +60,7 @@ Use adblocker with custom (content)filter & userscript (manager): https://gitlab
 
 ### Update
 For crx-installation: extension will update automatically or check for updates (in chrome://extensions).\
-Extension may be disabled (in Chrome/Edge) when extension needs new host permissions for added domains: opt-in/opt-out to custom sites once to disable this 'error' (browser will remember granted permissions).
+Extension may be disabled (in Chrome/Edge) when extension needs new host permissions for added domains: opt-in/opt-out to custom sites once to disable this 'error' (browser will remember granted host permissions).
 
 For zip-installation (load unpacked/developer mode): unzip files to installation folder or use a Git(Hub)-client to clone the extension (locally).
 
@@ -70,7 +70,7 @@ For new (updated) sites you also have to opt-in to custom sites/request host per
 ### Troubleshooting
 * If a site doesn't work, first try to turn off your adblocker (or other extension) and refresh page.
 * Make sure the (new) site is checked under Options.
-* Clear cookies by extension's icon (popup) and grant permission for site (or opt-in to custom sites)
+* Clear cookies by extension's icon (popup) and grant host permission for site (or opt-in to custom sites)
 * You will be logged out for some of the sites you have enabled.
 * Make sure you're running the latest version of Bypass Paywalls Clean.
 * Some sites need to redirect to an amp-page (this may cause a redirect-loop by an amp-to-html extension or browser setting like in Kiwi Browser (Android) > Settings > Privacy and security > Remove AMP).
@@ -613,6 +613,7 @@ Grouped in options:\
 [Salzburger Nachrichten](https://www.sn.at) -
 [Schwäbische Zeitung](https://www.schwaebische.de) -
 [Springer Medizin](https://www.springermedizin.de) -
+[Süddeutsche Zeitung (link to archive.is)](https://www.sueddeutsche.de) -
 [Volksstimme](https://www.volksstimme.de) -
 [Vorarlberg Nachrichten](https://www.vn.at) -
 [Vorarlberg Online](https://www.vol.at) -
@@ -977,7 +978,7 @@ _* free articles only._
 
 ### Sites with limited number of free articles
 The free article limit can normally be bypassed by removing cookies for the site.  
-Click on the BPC-icon and then *clear cookies*-button in the popup (for unsupported sites grant permission for domain).  
+Click on the BPC-icon and then *clear cookies*-button in the popup (for unsupported sites grant host permission for domain).  
 If removing the cookies works you can also add the site as a custom site.
 
 ### New site requests
@@ -985,16 +986,18 @@ You can [submit a request for a new website](https://gitlab.com/magnolia1234/byp
 Please use the issue template, read the following instructions and share your results for a quicker process.  
 Remember to check the [previous requests](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/issues?scope=all&state=all) before asking for a new website.  
 1. Open incognito window and search for article in Google search (or webcache).
-2. Clear cookies for the site (by this extension: opt-in to custom sites or grant permission for the site; also enables blocking of general paywall scripts).
+2. Clear cookies for the site (by this extension: opt-in to custom sites or grant host permission for the site; also enables blocking of general paywall scripts).
 3. Disable Javascript on the site (by browser, uBlock Origin or other extension).
 4. Add the domain as custom site for more bypass options.
 5. Open page in reader view (by browser or extension).
-6. Try one of the archive sites (for Google Search Tool test url & copy html (tab) code to https://codebeautify.org/htmlviewer).
+6. Try one of the archive sites:
+* archive.is/today will not work with Secured DNS by Cloudflare (or when you change referer/user-agent for the archive site)
+* for Google Search Tool test url & copy html (tab) code to https://codebeautify.org/htmlviewer
 
 ### Add custom site
 Add your own custom site (also for testing).  
 Check 'Options'-link in popup-menu and go to custom sites.  
-\*  by default BPC has limited permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for permission for current site).
+\*  by default BPC has limited host permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you've added yourself (or *clear cookies* (BPC-icon) to ask for host permission for current site).
 
 By default sites' cookies/local storage are blocked/removed (for example to bypass article limit when metered paywall).
 
