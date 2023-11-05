@@ -331,6 +331,7 @@
     "*://*.italian.tech/*",
     "*://*.italiaoggi.it/*",
     "*://*.jacobin.de/*",
+    "*://*.janes.com/*",
     "*://*.japantimes.co.jp/*",
     "*://*.jgnt.co/*",
     "*://*.journaldemontreal.com/*",
@@ -793,5 +794,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.0.8"
+  "version": "3.4.0.9"
 }
