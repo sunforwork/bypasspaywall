@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.1.0 (2023-11-05)
 Add Jane's Defence Weekly
 Add L'Opinion.fr
 Add LeFigaro.fr (link to archive.is)
