@@ -2075,7 +2075,8 @@ var defaultSites = {
   },
   "Telegraaf": {
     domain: "telegraaf.nl",
-    allow_cookies: 1
+    allow_cookies: 1,
+    cs_dompurify: 1
   },
   "Télérama": {
     domain: "telerama.fr",
