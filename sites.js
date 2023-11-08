@@ -237,7 +237,6 @@ var defaultSites = {
   "Belfast Telegraph": {
     domain: "belfasttelegraph.co.uk",
     allow_cookies: 1,
-    block_regex: /cdn\.flip-pay\.com\/clients\/.+\/flip-pay\.js/,
     cs_dompurify: 1
   },
   "Beobachter.ch": {
@@ -1175,7 +1174,6 @@ var defaultSites = {
   "Irish Independent": {
     domain: "independent.ie",
     allow_cookies: 1,
-    block_regex: /cdn\.flip-pay\.com\/clients\/.+\/flip-pay\.js/,
     cs_dompurify: 1
   },
   "Italia Oggi": {
@@ -2722,12 +2720,14 @@ var defaultSites = {
   "Poool.fr": {
     domain: "poool.fr",
     allow_cookies: 1,
-    block_regex_general: /\.poool\.fr\//
+    block_regex_general: /\.poool\.fr\//,
+    excluded_domains: ["poool.fr"]
   },
   "Qiota": {
     domain: "qiota.com",
     allow_cookies: 1,
-    block_regex_general: /\.qiota\.com\/data/
+    block_regex_general: /\.qiota\.com\/data/,
+    excluded_domains: ["qiota.com"]
   },
   "Steady": {
     domain: "steadyhq.com",
