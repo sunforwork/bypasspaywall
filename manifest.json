@@ -447,6 +447,7 @@
     "*://*.mid-day.com/*",
     "*://*.midilibre.fr/*",
     "*://*.mlive.com/*",
+    "*://*.moda.it/*",
     "*://*.modernhealthcare.com/*",
     "*://*.monacomatin.mc/*",
     "*://*.money.it/*",
@@ -791,5 +792,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.2.0"
+  "version": "3.4.2.1"
 }
