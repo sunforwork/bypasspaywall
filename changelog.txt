@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add Doorbraak.be
 Add Moda.it (GEDI.it)
+Add Global Polymer Group (Crain)
 Add Welt.de (link to archive.is)
 Fix FreiePresse.de
 Fix South China Morning Post (css)

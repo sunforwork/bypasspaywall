@@ -236,6 +236,7 @@
     "*://*.etc.se/*",
     "*://*.euobserver.com/*",
     "*://*.eurekareport.com.au/*",
+    "*://*.european-rubber-journal.com/*",
     "*://*.europower.no/*",
     "*://*.exame.com/*",
     "*://*.examiner.com.au/*",
@@ -527,6 +528,7 @@
     "*://*.pilotonline.com/*",
     "*://*.pionline.com/*",
     "*://*.piqd.de/*",
+    "*://*.plasticsnews.com/*",
     "*://*.politicaexterior.com/*",
     "*://*.popsci.com/*",
     "*://*.popularmechanics.com/*",
@@ -557,6 +559,7 @@
     "*://*.rnd.de/*",
     "*://*.roadandtrack.com/*",
     "*://*.rollingstone.com/*",
+    "*://*.rubbernews.com/*",
     "*://*.rugbypass.com/*",
     "*://*.rugbyrama.fr/*",
     "*://*.ruhrnachrichten.de/*",
@@ -615,6 +618,7 @@
     "*://*.sueddeutsche.de/*",
     "*://*.sun-sentinel.com/*",
     "*://*.suomensotilas.fi/*",
+    "*://*.sustainableplastics.com/*",
     "*://*.svz.de/*",
     "*://*.swarajyamag.com/*",
     "*://*.syracuse.com/*",
@@ -685,6 +689,7 @@
     "*://*.timeshighereducation.com/*",
     "*://*.timesofindia.com/*",
     "*://*.timesofindia.indiatimes.com/*",
+    "*://*.tirebusiness.com/*",
     "*://*.tlz.de/*",
     "*://*.topagrar.at/*",
     "*://*.topagrar.com/*",
@@ -707,6 +712,7 @@
     "*://*.upstreamonline.com/*",
     "*://*.usatoday.com/*",
     "*://*.usinenouvelle.com/*",
+    "*://*.utech-polyurethane.com/*",
     "*://*.valeursactuelles.com/*",
     "*://*.vancouversun.com/*",
     "*://*.vanityfair.com/*",
@@ -794,5 +800,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.2.5"
+  "version": "3.4.2.6"
 }
