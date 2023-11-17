@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Doorbraak.be
+Add InvestSmart.com.au
 Add Moda.it (GEDI.it)
 Add Global Polymer Group (Crain)
 Add Welt.de (link to archive.is)
