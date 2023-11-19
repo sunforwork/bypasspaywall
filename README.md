@@ -616,6 +616,7 @@ Grouped in options:\
 [Nordwest Zeitung](https://www.nwzonline.de) -
 [Philosophie Magazin](https://www.philomag.de) -
 [Piqd](https://www.piqd.de) -
+[Profil.at](https://www.profil.at) -
 [Rhein-Zeitung](https://www.rhein-zeitung.de) -
 [Salzburger Nachrichten](https://www.sn.at) -
 [Schwäbische Zeitung](https://www.schwaebische.de) -
