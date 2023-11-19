@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.3.0 (2023-11-19)
 Add Doorbraak.be
 Add InvestSmart.com.au
 Add Moda.it (GEDI.it)
