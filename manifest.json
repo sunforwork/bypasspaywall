@@ -704,6 +704,7 @@
     "*://*.tri-cityherald.com/*",
     "*://*.triathlete.com/*",
     "*://*.trouw.nl/*",
+    "*://*.tt.com/*",
     "*://*.tubantia.nl/*",
     "*://*.tucson.com/*",
     "*://*.tulsaworld.com/*",
@@ -802,5 +803,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.3.4"
+  "version": "3.4.3.5"
 }
