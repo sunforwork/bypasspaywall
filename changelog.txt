@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Jazziz
+Add Jazzwise
 Add Tagesspiegel.de (link to archive.is)
 Add Tiroler Tageszeitung
 Remove Madavor Media (domains obsolete)
