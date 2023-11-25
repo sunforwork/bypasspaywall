@@ -306,6 +306,7 @@
     "*://*.ilmattino.it/*",
     "*://*.ilmessaggero.it/*",
     "*://*.ilrestodelcarlino.it/*",
+    "*://*.ilsecoloxix.it/*",
     "*://*.iltelegrafolivorno.it/*",
     "*://*.iltirreno.it/*",
     "*://*.inc.com/*",
@@ -805,5 +806,5 @@
     "*://*.wyleex.com/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.3.6"
+  "version": "3.4.3.7"
 }
