@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Freitag.de
 Add ilSecoloXIX.it (GEDI.it)
 Add Jazziz
 Add Jazzwise
@@ -12,6 +13,7 @@ Remove Madavor Media (domains obsolete)
 Fix El Periodico de Catalunya (Grupo Prensa Iberica)
 Fix Groupe Nice-Matin (css)
 Fix The Hill Times (ld_json_url)
+Fix The Japan Times (premium; link to 1ft.io)
 Fix TheTimes.co.uk (mobile scroll)
 Update popup (fix toggle for custom flex sites)
 
