@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.4.0 (2023-11-26)
 Add Freitag.de
 Add ilSecoloXIX.it (GEDI.it)
 Add Jazziz
