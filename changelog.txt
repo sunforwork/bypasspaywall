@@ -2,6 +2,9 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Ikz-online.de (Funke)
+Remove Braunschweiger-zeitung.de (Funke; fix obsolete)
+Fix Freitag.de (text-break)
 
 * v3.4.4.0 (2023-11-26)
 Add Freitag.de
