@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add 3 more Hearst newspapers
 Add Ikz-online.de (Funke)
 Remove Braunschweiger-zeitung.de (Funke; fix obsolete)
 Fix Freitag.de (text-break)
