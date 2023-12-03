@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.5.0 (2023-12-03)
 Add 3 more Hearst newspapers
 Add Correiodopovo.com.br
 Add Gazetadopovo.com.br
