@@ -3,6 +3,8 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add 3 more Hearst newspapers
+Add Correiodopovo.com.br
+Add Gazetadopovo.com.br
 Add Ikz-online.de (Funke)
 Remove Braunschweiger-zeitung.de (Funke; fix obsolete)
 Fix Defector
