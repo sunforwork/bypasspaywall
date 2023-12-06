@@ -50,7 +50,7 @@ If you're familiar with Git(Hub)-clients you can also clone this repo and update
 1. Install [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=nl) from the Google PlayStore.
 2. You have two options:
 * load the CRX-file in releases (auto-updating, no allowlist needed, opt-in for custom sites not working (use kiwi-custom crx; updates to latest regular version)
-* install latest master zip-file (no automatic updates, for custom sites use manifest.json from custom folder, clearing Kiwi-cache will also remove extension though).
+* install latest master zip-file (no automatic updates, for custom sites use manifest.json from custom folder).
 
 #### Firefox
 Visit the [Firefox repository](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean) of Bypass Paywall Clean.
