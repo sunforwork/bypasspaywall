@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.6.0 (2023-12-10)
 Remove Morgenpost.de (Funke; fix obsolete)
 Remove The Star Malaysia (fix obsolete)
 Fix Beobachter.ch (json)
