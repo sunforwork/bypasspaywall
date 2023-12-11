@@ -601,7 +601,6 @@ Grouped in options:\
 [Automobilwoche](https://www.automobilwoche.de) -
 [Badische Neueste Nachrichten](https://www.bnn.de) -
 [Berliner Zeitung](https://www.berliner-zeitung.de) -
-[Bild der Wissenschaft](https://www.wissenschaft.de) -
 [Börsen-Zeitung](https://www.boersen-zeitung.de) -
 [Cicero](https://www.cicero.de) -
 [Der Freitag](https://www.freitag.de) -
@@ -612,7 +611,6 @@ Grouped in options:\
 [Frankfurter Allgemeine Zeitung](https://www.faz.net) -
 [Freie Presse](https://www.freiepresse.de) -
 [Jacobin Magazin](https://jacobin.de) -
-[Junge Freiheit](https://jungefreiheit.de) -
 [Kölner Stadt-Anzeiger](https://www.ksta.de) -
 [Kölnische Rundschau](https://www.rundschau-online.de) -
 [Krautreporter](https://krautreporter.de) -
