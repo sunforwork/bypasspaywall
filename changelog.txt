@@ -2,9 +2,10 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
-Fix Australia News Corp (media on amp)
+Remove Groupe EBRA (fix obsolete)
 Remove JungeFreiheit.de (fix obsolete)
 Remove Wissenschaft.de (fix obsolete)
+Fix Australia News Corp (media on amp)
 
 * v3.4.6.0 (2023-12-10)
 Remove Morgenpost.de (Funke; fix obsolete)
@@ -100,7 +101,7 @@ Add CartaCapital.com.br
 Add Cosmopolitan.fr
 Remove CodeSports.com.au (fix obsolete)
 Remove Hln.be (fix obsolete)
-Remove VosgesMatin.fr (fix obsolete)
+Remove VosgesMatin.fr (EBRA; fix obsolete)
 Fix Albuquerque Journal (css)
 Fix Apollo Magazine
 Fix Barron's (amp-redirect)
