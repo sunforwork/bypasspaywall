@@ -415,6 +415,7 @@
     "*://*.liberation-champagne.fr/*",
     "*://*.lindependant.fr/*",
     "*://*.linforme.com/*",
+    "*://*.literaryreview.co.uk/*",
     "*://*.livelaw.in/*",
     "*://*.livemint.com/*",
     "*://*.ln-online.de/*",
@@ -806,5 +807,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.6.2"
+  "version": "3.4.6.3"
 }
