@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.7.0 (2023-12-14)
 Add Die Presse (at)
 Add LiteraryReview.co.uk
 Add Weser-Kurier.de
