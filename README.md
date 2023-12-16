@@ -58,6 +58,8 @@ Visit the [Firefox repository](https://gitlab.com/magnolia1234/bypass-paywalls-f
 #### iOS/iPadOS
 Use adblocker with custom (content)filter & userscript (manager): https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters (read instructions).
 
+Although [Orion Browser](https://apps.apple.com/us/app/orion-browser-by-kagi/id1484498200) supports installing this extension, it won't work for a lot of sites (no full support of WebExtensions API on iOS/iPadOS).
+
 ### Update
 For crx-installation: extension will update automatically or check for updates (in chrome://extensions).\
 Extension may be disabled (in Chrome/Edge) when extension needs new host permissions for added domains: opt-in/opt-out to custom sites once to disable this 'error' (browser will remember granted host permissions).
