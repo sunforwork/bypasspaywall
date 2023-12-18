@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Fix Automobilwoche.de (js)
+Fix Groupe Centre France (identify sites)
 Fix Harvard Business Review (script)
 Fix London Review of Books (js-inline)
 Fix National Review (cookies)
