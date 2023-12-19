@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Bild.de (link to archive.is)
 Fix Automobilwoche.de (js)
 Fix Groupe Centre France (identify sites)
 Fix Harvard Business Review (script)
