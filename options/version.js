@@ -18,6 +18,7 @@ function show_update(ext_version_new, check = true) {
           ext_version_new: ext_version_new
         });
         anchorEl = document.createElement('a');
+        anchorEl.target = '_blank';
         if (installType === 'development')
           anchorEl.href = 'https://gitlab.com/magnolia1234/bypass-paywalls-' + url_loc + '-clean';
         else {
