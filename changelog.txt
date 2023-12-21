@@ -16,6 +16,7 @@ Fix London Review of Books (js-inline)
 Fix Media Group Westfalen
 Fix National Review (cookies)
 Fix NYmag-sites (js)
+Grouping Haaretz sites
 Update ld_json_url (default url)
 
 * v3.4.7.0 (2023-12-14)
