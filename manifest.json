@@ -258,6 +258,7 @@
     "*://*.foreignaffairs.com/*",
     "*://*.foreignpolicy.com/*",
     "*://*.fortune.com/*",
+    "*://*.foxnews.com/*",
     "*://*.franc-tireur.fr/*",
     "*://*.freep.com/*",
     "*://*.freiepresse.de/*",
@@ -809,5 +810,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.7.7"
+  "version": "3.4.7.8"
 }
