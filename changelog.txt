@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.8.0 (2023-12-24)
 Add Bild.de (link to archive.is)
 Add BNP Media (opt-in to custom sites)
 Add BusinessAM.be
