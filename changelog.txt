@@ -20,6 +20,7 @@ Fix Media Group Westfalen
 Fix National Review (cookies)
 Fix Nw.de (amp-redirect)
 Fix NYmag-sites (js)
+Fix The West Australian (cs-loading)
 Grouping Haaretz sites
 Update block general paywall script (EverCookie)
 Update ld_json_url (default url)
@@ -336,7 +337,7 @@ Fix Star Tribune (images/comments)
 Fix The Toronto Star (js)
 Fix Verlagsgruppe Rhein Main (json & identify sites)
 Maintenance request host permission (disabled for mobile)
-Update custom sites (fix ld_google_webcache)
+Update custom/updated sites (fix ld_google_webcache)
 
 * v3.2.5.0 (2023-07-16)
 Add El Tribuno (ar)
@@ -1176,7 +1177,7 @@ Fix NewcastleHerald.com.au
 Fix Lequipe.fr (json)
 Fix Neue Osnabrucker Zeitung (amp)
 Fix Quotidiano.net sites
-Update block general paywall script (Pigeon/Wordpress)
+Update block general paywall script (Pigeon/WordPress)
 
 * v2.5.6.0 (2022-02-13)
 Add Conde Nast magazines & Vogue Business
@@ -1478,7 +1479,7 @@ Fix Australia Nine sites
 Fix Commentary Magazine (new domain)
 Fix Gestion & El Comercio (Peru)
 Fix Grupo Vocento
-Fix FnLondon.com
+Fix Financial News (London)
 Fix The Athletic (podcast)
 Fix WSJ (amp homepage link)
 Update remove cookies (faster)
