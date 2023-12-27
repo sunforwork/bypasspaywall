@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Huffingtonpost.it
 Remove Haaretz Group (fix obsolete)
 Fix elDiario.es (amp-redirect)
 Fix S&P Global (js-inline)
