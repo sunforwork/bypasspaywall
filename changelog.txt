@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Business Insider Nederland
+Add Business Insider Polska
 Add Huffingtonpost.it
 Remove Haaretz Group (fix obsolete)
 Fix elDiario.es (amp-redirect)

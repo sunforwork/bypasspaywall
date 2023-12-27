@@ -718,6 +718,7 @@ Grouped in options:\
 
 ##### Netherlands/Flanders
 [Business AM](https://businessam.be) -
+[Business Insider Nederland](https://www.businessinsider.nl) -
 [De Tijd](https://www.tijd.be) -
 [Doorbraak](https://doorbraak.be) -
 [Financieele Dagblad](https://fd.nl) -
@@ -770,6 +771,7 @@ Grouped in options:\
 [Upstream](https://www.upstreamonline.com)
 
 ##### Poland
+[Business Insider Polska](https://businessinsider.com.pl) -
 [Rzeczpospolita](https://www.rp.pl)
 
 ##### Portugal
