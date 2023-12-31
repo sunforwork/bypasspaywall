@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.4.9.0 (2023-12-31)
 Add Business Insider Nederland
 Add Business Insider Polska
 Add Huffingtonpost.it
