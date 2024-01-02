@@ -2,7 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
-Fix Haaretz.co.il (fetch from archive.is)
+Fix Haaretz Group (Semrushbot)
 Fix The Diplomat (magazine)
 
 * v3.4.9.0 (2023-12-31)
