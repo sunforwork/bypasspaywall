@@ -345,6 +345,7 @@
     "*://*.jazziz.com/*",
     "*://*.jazzwise.com/*",
     "*://*.jgnt.co/*",
+    "*://*.journaldemillau.fr/*",
     "*://*.journaldemontreal.com/*",
     "*://*.journaldequebec.com/*",
     "*://*.journaldunet.com/*",
@@ -808,5 +809,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.9.5"
+  "version": "3.4.9.6"
 }
