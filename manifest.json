@@ -48,6 +48,7 @@
     "*://*.adage.com/*",
     "*://*.adelaidenow.com.au/*",
     "*://*.adweek.com/*",
+    "*://*.aerokurier.de/*",
     "*://*.aerztezeitung.de/*",
     "*://*.afr.com/*",
     "*://*.aisnenouvelle.fr/*",
@@ -253,6 +254,7 @@
     "*://*.fiskeribladet.no/*",
     "*://*.flair.be/*",
     "*://*.flair.nl/*",
+    "*://*.flugrevue.de/*",
     "*://*.fnlondon.com/*",
     "*://*.forbes.com/*",
     "*://*.foreignaffairs.com/*",
@@ -458,6 +460,7 @@
     "*://*.modernhealthcare.com/*",
     "*://*.monacomatin.mc/*",
     "*://*.monocle.com/*",
+    "*://*.motorradonline.de/*",
     "*://*.mundodeportivo.com/*",
     "*://*.mv-voice.com/*",
     "*://*.mz.de/*",
@@ -746,6 +749,7 @@
     "*://*.winnipegfreepress.com/*",
     "*://*.wired.com/*",
     "*://*.wochenblatt.com/*",
+    "*://*.womenshealth.de/*",
     "*://*.womenshealthmag.com/*",
     "*://*.womensrunning.com/*",
     "*://*.wonderzine.com/*",
@@ -809,5 +813,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.4.9.6"
+  "version": "3.4.9.7"
 }
