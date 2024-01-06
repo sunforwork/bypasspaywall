@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Forum Communications (opt-in to custom sites)
 Add Motor Presse Stuttgart
 Add JournaldeMillau.fr (Groupe La Depeche)
 Remove Bhaskar (fix obsolete)
