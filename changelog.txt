@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.0.0 (2024-01-07)
 Add Forum Communications (opt-in to custom sites)
 Add Motor Presse Stuttgart
 Add JournaldeMillau.fr (Groupe La Depeche)
