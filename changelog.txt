@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Schwarzwaelder-bote.de
 Remove Wz.de (fix obsolete)
 Fix MediaNews Group (identify sites)
 
