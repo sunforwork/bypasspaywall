@@ -1,11 +1,14 @@
 var ext_api = (typeof browser === 'object') ? browser : chrome;
-var url_loc = 'chrome';
 
 var manifestData = ext_api.runtime.getManifest();
-var versionString = 'v' + manifestData.version;
-document.getElementById('version').innerText = versionString;
-var versionString_new = document.getElementById('version_new');
-versionString_new.setAttribute('style', 'font-weight: bold;');
+var url_loc = manifestData.key ? 'chrome' : 'firefox';
+var version_str = 'v' + manifestData.version;
+var version_span = document.querySelector('span#version');
+if (version_span)
+  version_span.innerText = version_str;
+var version_span_new = document.querySelector('span#version_new');
+if (version_span_new)
+  version_span_new.setAttribute('style', 'font-weight: bold;');
 var anchorEl;
 
 function show_update(ext_version_new, check = true) {
@@ -27,11 +30,11 @@ function show_update(ext_version_new, check = true) {
         }
         anchorEl.innerText = 'New release v' + ext_version_new;
         anchorEl.target = '_blank';
-        versionString_new.appendChild(anchorEl);
+        version_span_new.appendChild(anchorEl);
         if (!manifestData.name.includes('Clean')) {
           let par = document.createElement('p');
           par.innerHTML = "<strong>You've installed a fake version of BPC (check GitLab)</strong>";
-          versionString_new.appendChild(par);
+          version_span_new.appendChild(par);
         }
       }
     });
@@ -40,7 +43,7 @@ function show_update(ext_version_new, check = true) {
     anchorEl.text = 'Check Twitter for latest update';
     anchorEl.href = 'https://twitter.com/Magnolia1234B';
     anchorEl.target = '_blank';
-    versionString_new.appendChild(anchorEl);
+    version_span_new.appendChild(anchorEl);
   }
 }
 

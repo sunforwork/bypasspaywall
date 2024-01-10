@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Remove Wz.de (fix obsolete)
 
 * v3.5.0.0 (2024-01-07)
 Add Forum Communications (opt-in to custom sites)
@@ -1153,7 +1154,7 @@ Add LeNouvelEconomiste.fr
 Add Muenstersche Zeitung
 Add NewcastleHerald.com.au
 Add S&P Global
-Add Westdeutsche Zeitung
+Add Wz.de
 Remove HBR Taiwan (fix obsolete)
 Fix Australian Community Media (json)
 

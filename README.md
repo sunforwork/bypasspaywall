@@ -6,6 +6,7 @@ Weekly updates are released for fixes and new sites.
 
 * [Installation](#installation)
 * [Update](#update)
+* [Android](#android)
 * [Troubleshooting](#troubleshooting)
 * [List of supported websites](#list-of-supported-websites)
 * [Sites with limited number of free articles](#sites-with-limited-number-of-free-articles)
@@ -46,6 +47,15 @@ If you're familiar with Git(Hub)-clients you can also clone this repo and update
 
 * By default BPC has limited permissions, but you can opt-in to enable custom sites (and also clear cookies/block general paywall-scripts for unlisted sites). You can also just request host permissions for the custom sites you added yourself (or *clear cookies* (BPC-icon) to ask for host permission for current site).
 
+### Update
+For crx-installation: extension will update automatically or check for updates (in chrome://extensions).\
+Extension may be disabled (in Chrome/Edge) when extension needs new host permissions for added domains: opt-in/opt-out to custom sites once to disable this 'error' (browser will remember granted host permissions).
+
+For zip-installation (load unpacked/developer mode): unzip files to installation folder or use a Git(Hub)-client to clone the extension (locally).
+
+You can also check for (post-release) updates of site rules at startup (opt-in); only available until about 10 days after fix-release.\
+For new (updated) sites you also have to opt-in to custom sites/request host permissions for new domains (or wait for new release).
+
 #### Android
 1. Install [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=nl) from the Google PlayStore.
 2. You have two options:
@@ -60,15 +70,6 @@ Use adblocker with custom (content)filter & userscript (manager): https://gitlab
 
 Although [Orion Browser](https://apps.apple.com/us/app/orion-browser-by-kagi/id1484498200) supports installing this extension, it won't work for a lot of sites (no full support of WebExtensions API on iOS/iPadOS).
 
-### Update
-For crx-installation: extension will update automatically or check for updates (in chrome://extensions).\
-Extension may be disabled (in Chrome/Edge) when extension needs new host permissions for added domains: opt-in/opt-out to custom sites once to disable this 'error' (browser will remember granted host permissions).
-
-For zip-installation (load unpacked/developer mode): unzip files to installation folder or use a Git(Hub)-client to clone the extension (locally).
-
-You can also check for (post-release) updates of site rules at startup (opt-in); only available until about 10 days after fix-release.\
-For new (updated) sites you also have to opt-in to custom sites/request host permissions for new domains (or wait for new release).
-
 ### Troubleshooting
 * If a site doesn't work, first try to turn off your adblocker (or other extension) and refresh page.
 * Make sure the (new) site is checked under Options.
@@ -80,15 +81,13 @@ For new (updated) sites you also have to opt-in to custom sites/request host per
 * This extension works best alongside the adblocker [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm).
 * If you live in the EU, also consider adding these filters to your adblocker (in order to remove cookie warnings): [Easylist Cookies](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt) | [I don't care about cookies custom filter](https://www.i-dont-care-about-cookies.eu/abp). Some sites need to set a consent-cookie for (social) media.
 
+[Go to top](#bypass-paywalls-clean-for-chrome)
+
 ### List of supported websites
 
 _* free articles only._
 
-##### International news
-[Foreign Affairs](https://www.foreignaffairs.com) -
-[Foreign Policy](https://www.foreignpolicy.com) -
-[Inkl](https://www.inkl.com) -
-[Newsweek](https://www.newsweek.com) -
+##### National USA news
 [Reuters](https://www.reuters.com) -
 [The New York Times](https://www.nytimes.com) -
 [The Washington Post](https://www.washingtonpost.com)
@@ -217,11 +216,14 @@ Grouped in options:\
 [Defector](https://defector.com) -
 [Field & Stream](https://www.fieldandstream.com) -
 [First Things](https://www.firstthings.com) -
+[Foreign Affairs](https://www.foreignaffairs.com) -
+[Foreign Policy](https://www.foreignpolicy.com) -
 [Harper's Magazine](https://harpers.org) -
 [Jane's Defence Weekly](https://www.janes.com/defence-news/) -
 [Jazziz](https://www.jazziz.com) -
 [Jazzwise](https://www.jazzwise.com) -
 [National Review](https://www.nationalreview.com) -
+[Newsweek](https://www.newsweek.com) -
 [Outdoor Life](https://www.outdoorlife.com) -
 [Project Syndicate (link to archive.is)](https://www.project-syndicate.org) -
 [Puck.news](https://puck.news) -
@@ -629,8 +631,7 @@ Grouped in options:\
 [Vorarlberg Nachrichten](https://www.vn.at) -
 [Vorarlberg Online](https://www.vol.at) -
 [Weltkunst](https://www.weltkunst.de) -
-[Weser-Kurier](https://www.weser-kurier.de) -
-[Westdeutsche Zeitung](https://www.wz.de)
+[Weser-Kurier](https://www.weser-kurier.de)
 
 Grouped in options:\
 *[Deutscher Fachverlag Mediengruppe](https://www.dfv.de)* (opt-in to custom sites)\
@@ -854,6 +855,7 @@ Grouped in options:\
 ##### Australia/New Zealand
 
 [Crikey](https://www.crikey.com.au) -
+[Inkl](https://www.inkl.com) -
 [MacroBusiness](https://www.macrobusiness.com.au) -
 [New Zealand Herald](https://www.nzherald.co.nz) -
 [The Saturday Paper](https://www.thesaturdaypaper.com.au) -
@@ -1000,6 +1002,7 @@ Grouped in options:\
 
 _* free articles only._
 
+[Go to top](#bypass-paywalls-clean-for-chrome)
 ### Sites with limited number of free articles
 The free article limit can normally be bypassed by removing cookies for the site.  
 Click on the BPC-icon and then *clear cookies*-button in the popup (for unsupported sites grant host permission for domain).  
@@ -1055,3 +1058,5 @@ You can also exclude a specific domain which is grouped in options.
 
 ### Disclaimer
 * This software is provided for educational purposes only and is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
+[Go to top](#bypass-paywalls-clean-for-chrome)
