@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add EWmagazine.nl (link to archive.is)
 Add Schwarzwaelder-bote.de
 Remove LeMonde.fr (fix obsolete)
 Remove Wz.de (fix obsolete)
