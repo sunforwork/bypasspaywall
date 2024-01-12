@@ -398,6 +398,7 @@ Grouped in options:\
 [The Wichita Eagle](https://www.kansas.com) -
 [Tri-City Herald](https://www.tri-cityherald.com)\
 *MediaNews Group* sites like (opt-in to custom sites for unlisted/local sites)\
+[Boston Herald](https://www.bostonherald.com) -
 [East Bay Times](https://www.eastbaytimes.com) -
 [Orange County Register](https://www.ocregister.com) -
 [St. Paul Pioneer Press](https://www.twincities.com) -
