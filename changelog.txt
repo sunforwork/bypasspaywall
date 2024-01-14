@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.1.0 (2024-01-14)
 Add Boston Herald (MediaNews Group)
 Add EWmagazine.nl (link to archive.is)
 Add Schwarzwaelder-bote.de
