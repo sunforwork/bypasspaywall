@@ -2,10 +2,12 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Independent.co.uk (premium images)
+Fix Zeit.de (bug; update rules)
 
 * v3.5.1.0 (2024-01-14)
 Add Boston Herald (MediaNews Group)
-Add EWmagazine.nl (link to archive.is)
+Add EWmagazine.nl (fetch from archive.is)
 Add Schwarzwaelder-bote.de
 Add The Irish Examiner
 Remove LeMonde.fr (fix obsolete)
