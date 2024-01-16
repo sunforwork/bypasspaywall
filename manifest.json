@@ -748,6 +748,7 @@
     "*://*.wiesbadener-kurier.de/*",
     "*://*.winnipegfreepress.com/*",
     "*://*.wired.com/*",
+    "*://*.wiwo.de/*",
     "*://*.wochenblatt.com/*",
     "*://*.womenshealth.de/*",
     "*://*.womenshealthmag.com/*",
@@ -813,5 +814,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.1.2"
+  "version": "3.5.1.3"
 }

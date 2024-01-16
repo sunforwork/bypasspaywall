@@ -632,7 +632,8 @@ Grouped in options:\
 [Vorarlberg Nachrichten](https://www.vn.at) -
 [Vorarlberg Online](https://www.vol.at) -
 [Weltkunst](https://www.weltkunst.de) -
-[Weser-Kurier](https://www.weser-kurier.de)
+[Weser-Kurier](https://www.weser-kurier.de) -
+[WirtschaftsWoche](https://www.wiwo.de)
 
 Grouped in options:\
 *[Deutscher Fachverlag Mediengruppe](https://www.dfv.de)* (opt-in to custom sites)\
