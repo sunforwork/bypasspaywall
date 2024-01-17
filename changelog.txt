@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Mediahuis Nederland Regional (fetch from archive.is)
 Add Wiwo.de (fetch from archive.is)
 Remove Franc-Tireur.fr (fix obsolete)
 Fix Independent.co.uk (premium images)
