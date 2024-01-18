@@ -2,6 +2,9 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Hln.be (fetch from archive.is)
+Add Limburger.nl (fetch from archive.is)
+Add Mediahuis Belgie (fetch from archive.is)
 Add Mediahuis Nederland Regional (fetch from archive.is)
 Add Wiwo.de (fetch from archive.is)
 Remove Franc-Tireur.fr (fix obsolete)
