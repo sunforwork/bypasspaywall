@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.2.0 (2024-01-21)
 Add Hln.be (fetch from archive.is)
 Add Limburger.nl (fetch from archive.is)
 Add Mediahuis Belgie (fetch from archive.is)
