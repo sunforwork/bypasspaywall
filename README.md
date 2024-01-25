@@ -647,8 +647,7 @@ Grouped in options:\
 [Mannheimer Morgen](https://www.mannheimer-morgen.de)\
 *Landwirtschaftsverlag* sites like\
 [Profi.de](https://www.profi.de) -
-[Top Agrar.at](https://www.topagrar.at) -
-[Top Agrar.com](https://www.topagrar.com) -
+[Top Agrar](https://www.topagrar.com) -
 [Wochenblatt für Landwirtschaft & Landleben](https://www.wochenblatt.com)\
 *Madsack Mediengruppe* sites like (opt-in to custom sites for unlisted)\
 [Hannoversche Allgemeine Zeitung](https://www.haz.de) -
