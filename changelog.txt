@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add El Nuevo Herald (McClatchy Group)
 Add Newsweek.pl (fetch from archive.is)
+Add Study.com (only lessons; no videos)
 Remove Abendblatt.de (Funke; fix obsolete)
 Fix Groupe Capitales Medias (identify sites)
 Fix Grupo Abril (js)
@@ -25,7 +26,7 @@ Fix Hearst magazines (js)
 Fix Independent.co.uk (premium images)
 Fix The (New Orleans) Advocate (gambit)
 Fix Times Higher Education (books)
-Fix Zeit.de (bug; update rules)
+Fix Zeit.de (bug)
 
 * v3.5.1.0 (2024-01-14)
 Add Boston Herald (MediaNews Group)

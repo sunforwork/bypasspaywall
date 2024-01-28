@@ -629,6 +629,7 @@
     "*://*.stocknews.com/*",
     "*://*.stratfor.com/*",
     "*://*.studocu.com/*",
+    "*://*.study.com/*",
     "*://*.stuttgarter-nachrichten.de/*",
     "*://*.stuttgarter-zeitung.de/*",
     "*://*.stylist.co.uk/*",
@@ -826,5 +827,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.2.5"
+  "version": "3.5.2.6"
 }
