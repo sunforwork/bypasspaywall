@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.3.0 (2024-01-28)
 Add El Nuevo Herald (McClatchy Group)
 Add Newsweek.pl (fetch from archive.is)
 Add Study.com (only lessons; no videos)
