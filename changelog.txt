@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add BusinessTimes.com.sg & StraitsTimes.com (SPH Media)
 Fix Augsburger-allgemeine.de (Googlebot)
 Fix Tribune Publishing Company (js)
 Update custom sites (ld_archive_is)

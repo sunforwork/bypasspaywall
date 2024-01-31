@@ -117,6 +117,7 @@
     "*://*.businessinsider.nl/*",
     "*://*.businessoffashion.com/*",
     "*://*.businesspost.ie/*",
+    "*://*.businesstimes.com.sg/*",
     "*://*.cairnspost.com.au/*",
     "*://*.calgaryherald.com/*",
     "*://*.cambiocolombia.com/*",
@@ -627,6 +628,7 @@
     "*://*.stereogum.com/*",
     "*://*.stltoday.com/*",
     "*://*.stocknews.com/*",
+    "*://*.straitstimes.com/*",
     "*://*.stratfor.com/*",
     "*://*.studocu.com/*",
     "*://*.study.com/*",
@@ -826,5 +828,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.3.3"
+  "version": "3.5.3.4"
 }
