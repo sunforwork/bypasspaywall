@@ -2447,6 +2447,10 @@ var defaultSites = {
     ],
     allow_cookies: 1
   },
+  "The Lamp Magazine": {
+    domain: "thelampmagazine.com",
+    allow_cookies: 1
+  },
   "The Lawyer's Daily": {
     domain: "thelawyersdaily.ca",
     allow_cookies: 1,
