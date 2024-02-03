@@ -173,6 +173,7 @@
     "*://*.ctpost.com/*",
     "*://*.curbed.com/*",
     "*://*.cw.com.tw/*",
+    "*://*.dagsavisen.no/*",
     "*://*.dailyadvertiser.com.au/*",
     "*://*.dailyliberal.com.au/*",
     "*://*.dailypress.com/*",
@@ -196,6 +197,7 @@
     "*://*.diepresse.com/*",
     "*://*.digiday.com/*",
     "*://*.discovermagazine.com/*",
+    "*://*.dn.se/*",
     "*://*.doorbraak.be/*",
     "*://*.dvhn.nl/*",
     "*://*.eastbaytimes.com/*",
@@ -829,5 +831,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.3.6"
+  "version": "3.5.3.7"
 }
