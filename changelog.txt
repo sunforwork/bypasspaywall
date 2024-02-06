@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Superdeporte.es (Grupo Prensa Iberica)
+Fix Grupo Prensa Iberica (css)
 
 * v3.5.4.0 (2024-02-04)
 Add BusinessTimes.com.sg & StraitsTimes.com (SPH Media)
