@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add DailyMail.co.uk
 Add Dwell (json)
 Add Superdeporte.es (Grupo Prensa Iberica)
 Fix El Espanol (Cronica Global)
