@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.5.0 (2024-02-11)
 Add DailyMail.co.uk
 Add DerAktionaer.de (fetch from archive.is)
 Add Dwell (json)
