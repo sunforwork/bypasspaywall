@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add DailyMail.co.uk
+Add DerAktionaer.de (fetch from archive.is)
 Add Dwell (json)
 Add Superdeporte.es (Grupo Prensa Iberica)
 Add Ynet.co.il
