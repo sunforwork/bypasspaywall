@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Kurier.at (js & css)
 Fix Nw.de (amp-redirect)
 Fix TheTimes.co.uk (mobile images)
 
