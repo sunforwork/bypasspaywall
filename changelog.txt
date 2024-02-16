@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add 3 more Gannett sites
 Add CH Media (opt-in to custom sites for unlisted)
+Add Sourcing Journal (Penske)
 Fix Advance Local (json)
 Fix Groupe ESH Medias (iframely)
 Fix Grupo Vocento (limit amp-redirect)
