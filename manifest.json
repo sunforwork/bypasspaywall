@@ -188,6 +188,7 @@
     "*://*.demorgen.be/*",
     "*://*.denverpost.com/*",
     "*://*.deraktionaer.de/*",
+    "*://*.desmoinesregister.com/*",
     "*://*.destentor.nl/*",
     "*://*.detroitnews.com/*",
     "*://*.df.cl/*",
@@ -200,6 +201,7 @@
     "*://*.diepresse.com/*",
     "*://*.digiday.com/*",
     "*://*.discovermagazine.com/*",
+    "*://*.dispatch.com/*",
     "*://*.dn.se/*",
     "*://*.doorbraak.be/*",
     "*://*.dvhn.nl/*",
@@ -356,6 +358,7 @@
     "*://*.irishtimes.com/*",
     "*://*.italian.tech/*",
     "*://*.italiaoggi.it/*",
+    "*://*.jacksonville.com/*",
     "*://*.jacobin.de/*",
     "*://*.janes.com/*",
     "*://*.japantimes.co.jp/*",
@@ -841,5 +844,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.5.5"
+  "version": "3.5.5.6"
 }
