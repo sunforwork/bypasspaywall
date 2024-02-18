@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.6.0 (2024-02-18)
 Add 3 more Gannett sites
 Add CH Media (opt-in to custom sites for unlisted)
 Add Sourcing Journal (Penske)
