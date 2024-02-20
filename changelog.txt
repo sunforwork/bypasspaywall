@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add Forbes.com.au
 Add Vogue.co.uk (Conde Nast)
+Remove Arkansas Democrat-Gazette (fix obsolete)
 Fix Haaretz Group (disable bot)
 Fix Humanite.fr (json)
 
