@@ -268,6 +268,7 @@
     "*://*.flair.nl/*",
     "*://*.flugrevue.de/*",
     "*://*.fnlondon.com/*",
+    "*://*.forbes.com.au/*",
     "*://*.forbes.com/*",
     "*://*.foreignaffairs.com/*",
     "*://*.foreignpolicy.com/*",
@@ -846,5 +847,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.6.2"
+  "version": "3.5.6.3"
 }
