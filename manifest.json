@@ -120,6 +120,7 @@
     "*://*.cairnspost.com.au/*",
     "*://*.calgaryherald.com/*",
     "*://*.cambiocolombia.com/*",
+    "*://*.canarias7.es/*",
     "*://*.canberratimes.com.au/*",
     "*://*.capitalgazette.com/*",
     "*://*.cartacapital.com.br/*",
@@ -835,5 +836,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.6.6"
+  "version": "3.5.6.7"
 }

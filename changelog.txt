@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Canarias7.es (Grupo Vocento)
 Add Forbes.com.au
 Add Polityka.pl
 Add Vogue.co.uk (Conde Nast)
