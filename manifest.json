@@ -116,7 +116,6 @@
     "*://*.businessinsider.nl/*",
     "*://*.businessoffashion.com/*",
     "*://*.businesspost.ie/*",
-    "*://*.businesstimes.com.sg/*",
     "*://*.cairnspost.com.au/*",
     "*://*.calgaryherald.com/*",
     "*://*.cambiocolombia.com/*",
@@ -828,5 +827,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.7.0"
+  "version": "3.5.7.1"
 }

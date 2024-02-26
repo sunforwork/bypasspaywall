@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Remove BusinessTimes.com.sg (fix obsolete)
+Maintenance updated sites (removed)
 
 * v3.5.7.0 (2024-02-25)
 Add Canarias7.es (Grupo Vocento)
