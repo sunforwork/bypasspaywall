@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Remove BusinessTimes.com.sg (fix obsolete)
 Remove Dn.se (fix obsolete)
+Remove LeFigaro.fr (fix obsolete)
 Fix Haaretz Group (Outbrain bot)
 Fix Project Syndicate (no article)
 Maintenance updated sites (removed)
