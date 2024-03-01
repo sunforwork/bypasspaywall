@@ -322,6 +322,7 @@
     "*://*.ilmessaggero.it/*",
     "*://*.ilrestodelcarlino.it/*",
     "*://*.ilsecoloxix.it/*",
+    "*://*.ilsole24ore.com/*",
     "*://*.iltelegrafolivorno.it/*",
     "*://*.iltirreno.it/*",
     "*://*.inc.com/*",
@@ -826,5 +827,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.7.6"
+  "version": "3.5.7.7"
 }
