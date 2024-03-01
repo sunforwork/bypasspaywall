@@ -152,6 +152,11 @@
   "Connexionfrance.com": {
     "domain": "connexionfrance.com"
   },
+  "Craftscouncil.org.uk": {
+    "allow_cookies": 1,
+    "block_regex": "\\/steadyhq\\.com",
+    "domain": "craftscouncil.org.uk"
+  },
   "Dailyherald.com": {
     "allow_cookies": 1,
     "block_regex": "\\.tinypass\\.com",
