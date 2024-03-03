@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.8.0 (2024-03-03)
 Add Autosport (free articles only)
 Add Digiday Media
 Add Il Sole 24 Ore
