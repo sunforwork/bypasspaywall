@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Fix Boersen-zeitung.de (timing)
 
 * v3.5.8.0 (2024-03-03)
 Add Autosport (free articles only)
