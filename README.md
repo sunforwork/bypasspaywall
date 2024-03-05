@@ -225,7 +225,6 @@ Grouped in options:\
 [Newsweek](https://www.newsweek.com) -
 [Outdoor Life](https://www.outdoorlife.com) -
 [Project Syndicate](https://www.project-syndicate.org) -
-[Puck.news](https://puck.news) -
 [Slate](https://slate.com) -
 [SofRep](https://sofrep.com) -
 [Stereogum](https://www.stereogum.com) -

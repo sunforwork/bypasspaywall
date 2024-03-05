@@ -554,7 +554,6 @@
     "*://*.project-syndicate.org/*",
     "*://*.prospectmagazine.co.uk/*",
     "*://*.public.fr/*",
-    "*://*.puck.news/*",
     "*://*.pzc.nl/*",
     "*://*.quora.com/*",
     "*://*.quotidiano.net/*",
@@ -830,5 +829,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.8.0"
+  "version": "3.5.8.1"
 }
