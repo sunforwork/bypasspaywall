@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Industry Dive (opt-in to custom sites)
 Remove Puck.news (fix obsolete)
 Fix Boersen-zeitung.de (timing)
 Fix Il Sole 24 Ore (24+ only)
