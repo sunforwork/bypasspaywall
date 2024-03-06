@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Funke Mediengruppe (fetch from archive.is)
 Add Industry Dive (opt-in to custom sites)
 Remove Puck.news (fix obsolete)
 Fix Boersen-zeitung.de (timing)
