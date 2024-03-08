@@ -2,15 +2,32 @@ var ext_api = (typeof browser === 'object') ? browser : chrome;
 
 var manifestData = ext_api.runtime.getManifest();
 var url_loc = manifestData.key ? 'chrome' : 'firefox';
+var ext_url = 'https://gitlab.com/magnolia1234/bypass-paywalls-' + url_loc + '-clean';
+var ext_name = manifestData.name;
 var version_str = 'v' + manifestData.version;
 var version_span = document.querySelector('span#version');
 if (version_span)
   version_span.innerText = version_str;
 var version_span_new = document.querySelector('span#version_new');
-if (version_span_new)
-  version_span_new.setAttribute('style', 'font-weight: bold;');
+version_span_new.setAttribute('style', 'font-weight: bold;');
 var anchorEl;
 
+function show_warning() {
+  let warning;
+  if (!ext_name.includes('Clean')) {
+    warning = 'fake';
+  }
+  if (warning) {
+    let par = document.createElement('p');
+    let ext_link = document.createElement('a');
+    ext_link.href = ext_url;
+    ext_link.innerText = "You've installed a " + warning + " version of Bypass Paywalls Clean";
+    ext_link.target = '_blank';
+    par.style = 'font-weight: bold;';
+    par.appendChild(ext_link);
+    version_span_new.appendChild(par);
+  }
+}
 function show_update(ext_version_new, check = true) {
   if (ext_version_new) {
     ext_api.management.getSelf(function (result) {
@@ -23,21 +40,16 @@ function show_update(ext_version_new, check = true) {
         anchorEl = document.createElement('a');
         anchorEl.target = '_blank';
         if (installType === 'development')
-          anchorEl.href = 'https://gitlab.com/magnolia1234/bypass-paywalls-' + url_loc + '-clean';
+          anchorEl.href = ext_url;
         else {
-          anchorEl.href = 'https://gitlab.com/magnolia1234/bypass-paywalls-' + url_loc + '-clean/-/releases';
+          anchorEl.href = ext_url + '/-/releases';
           ext_version_new = ext_version_new.replace(/\d$/, '0');
         }
         anchorEl.innerText = 'New release v' + ext_version_new;
-        anchorEl.target = '_blank';
         version_span_new.appendChild(anchorEl);
-        if (!manifestData.name.includes('Clean')) {
-          let par = document.createElement('p');
-          par.innerHTML = "<strong>You've installed a fake version of BPC (check GitLab)</strong>";
-          version_span_new.appendChild(par);
-        }
       }
     });
+    show_warning();
   } else if (check) {
     anchorEl = document.createElement('a');
     anchorEl.text = 'Check Twitter for latest update';
@@ -49,7 +61,7 @@ function show_update(ext_version_new, check = true) {
 
 function check_version_update(ext_version_new, popup) {
   if (!popup) {
-    let manifest_new = 'https://gitlab.com/magnolia1234/bypass-paywalls-' + url_loc + '-clean/raw/master/manifest.json';
+    let manifest_new = ext_url + '/raw/master/manifest.json';
     fetch(manifest_new)
     .then(response => {
       if (response.ok) {
@@ -71,5 +83,6 @@ ext_api.storage.local.get({optInUpdate: true, ext_version_new: false}, function 
   if (result.optInUpdate) {
     let popup = document.querySelector('script[id="popup"]');
     check_version_update(result.ext_version_new, popup);
-  }
+  } else
+    show_warning();
 });
