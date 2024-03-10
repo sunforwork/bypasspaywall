@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.5.9.0 (2024-03-10)
 Add Funke Mediengruppe (fetch from archive.is)
 Add Industry Dive (opt-in to custom sites)
 Add Suedkurier.de (fetch from archive.is)
