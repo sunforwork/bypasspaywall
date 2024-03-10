@@ -639,6 +639,7 @@
     "*://*.stylist.co.uk/*",
     "*://*.sudouest.fr/*",
     "*://*.sueddeutsche.de/*",
+    "*://*.suedkurier.de/*",
     "*://*.sun-sentinel.com/*",
     "*://*.suomensotilas.fi/*",
     "*://*.sustainableplastics.com/*",
@@ -840,5 +841,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.8.8"
+  "version": "3.5.8.9"
 }
