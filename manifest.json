@@ -164,6 +164,7 @@
     "*://*.courant.com/*",
     "*://*.courier-journal.com/*",
     "*://*.couriermail.com.au/*",
+    "*://*.courrierinternational.com/*",
     "*://*.crainscleveland.com/*",
     "*://*.crainsdetroit.com/*",
     "*://*.crainsnewyork.com/*",
@@ -841,5 +842,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.9.0"
+  "version": "3.5.9.1"
 }
