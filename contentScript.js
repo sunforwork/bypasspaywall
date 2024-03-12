@@ -4141,6 +4141,41 @@ else if (matchDomain('euobserver.com')) {
 }
 
 else if (matchDomain('fastcompany.com')) {
+  let paywall = document.querySelector('div.paywall');
+  if (paywall && dompurify_loaded) {
+    removeDOMElement(paywall);
+    let scripts = document.querySelectorAll('script:not([src]):not([type])');
+    let json_script;
+    for (let script of scripts) {
+      if (script.text.match(/window\.appState\s=\s/)) {
+        json_script = script;
+        break;
+      }
+    }
+    if (json_script) {
+      try {
+        let json = JSON.parse(json_script.text.split(/window\.appState\s=\s/)[1].split('};')[0].replace(/:undefined([,}])/g, ':"undefined"$1') + '}');
+        if (json) {
+          let pars_array = json.post.data.post.content;
+          let article = document.querySelector('article');
+          if (pars_array.length && article) {
+            article.innerHTML = '';
+            article.classList.remove('post__article--lock');
+            let parser = new DOMParser();
+            for (let par_array of pars_array) {
+              for (let par of par_array) {
+                let content_new = parser.parseFromString('<div>' + DOMPurify.sanitize(par, dompurify_options) + '</div>', 'text/html');
+                let elem = content_new.querySelector('div');
+                article.appendChild(elem);
+              }
+            }
+          }
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  }
   let ads = document.querySelectorAll('div[class*="ad-wrapper"]');
   hideDOMElement(...ads);
 }
