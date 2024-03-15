@@ -415,6 +415,7 @@
     "*://*.lehighvalleylive.com/*",
     "*://*.lejdd.fr/*",
     "*://*.lemagit.fr/*",
+    "*://*.lemoniteur.fr/*",
     "*://*.lenouveleconomiste.fr/*",
     "*://*.lenouvelliste.ch/*",
     "*://*.leparisien.fr/*",
@@ -844,5 +845,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.9.6"
+  "version": "3.5.9.7"
 }
