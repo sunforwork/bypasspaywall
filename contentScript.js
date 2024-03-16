@@ -365,7 +365,7 @@ if (ext_api.runtime) {
 
 // Content workarounds/domain
 
-if (matchDomain('medium.com') || matchDomain(medium_custom_domains) || (!matchDomain('webcache.googleusercontent.com') && document.querySelector('script[src*=".medium.com/"]'))) {
+if (matchDomain('medium.com') || matchDomain(medium_custom_domains) || (!matchDomain('webcache.googleusercontent.com') && document.querySelector('head > link[href*=".medium.com/"]'))) {
   let url = window.location.href;
   let paywall = document.querySelector('article.meteredContent');
   if (paywall) {
@@ -481,7 +481,7 @@ else {
       }
     } else {
       // Australian Seven West Media
-      if (matchDomain('thewest.com.au') || document.querySelector('li > a[href*=".sevenwestmedia.com.au"]')) {
+      if (matchDomain('thewest.com.au') || document.querySelector('head > link[href="https://images.thewest.com.au"]')) {
         function thewest_main(node) {
           let scripts = document.querySelectorAll('script:not([src]):not([type])');
           let json_script;
@@ -1257,6 +1257,11 @@ else if (matchDomain('profil.at')) {
   }
   let overlay = document.querySelector('div.consentOverlay');
   hideDOMElement(overlay);
+}
+
+else if (matchDomain('rhein-zeitung.de')) {
+  let ads = document.querySelectorAll('div[class$="board"]');
+  hideDOMElement(...ads);
 }
 
 else if (matchDomain('schwaebische.de')) {
@@ -2562,7 +2567,7 @@ else if (matchDomain('tuttosport.com')) {
 else
   csDone = true;
 
-} else if (window.location.hostname.match(/\.(be|nl)$/) || matchDomain(['artsenkrant.com', 'lavenir.net'])) {//belgium/netherlands
+} else if (window.location.hostname.match(/\.(be|nl)$/) || matchDomain(['artsenkrant.com', 'lavenir.net', 'projectcargojournal.com', 'railfreight.cn', 'railfreight.com', 'railtech.com'])) {//belgium/netherlands
 
 if (matchDomain(be_groupe_ipm_domains)) {
   let paywall = document.querySelector('div.is-preview');
@@ -2841,6 +2846,28 @@ else if (matchDomain('vn.nl')) {
     let body = document.querySelector('body');
     if (body)
       body.style = 'height:auto !important;';
+  }
+}
+
+else if (document.querySelector('head > link[href="//ppt.promedia.nl"]') || document.querySelector('head > script[src*="/pmgnews/scripts/promedia.js"]')) {
+  let paywall_sel = 'div.pmgsub';
+  let paywall = document.querySelector(paywall_sel);
+  if (paywall) {
+    let article_sel = 'div.post-body, div.text';
+    let article = document.querySelector(article_sel);
+    if (article) {
+      let pars = article.querySelectorAll('p:first-child');
+      if (pars.length > 2)
+        removeDOMElement(paywall);
+      else {
+        func_post = function () {
+          let paywall = document.querySelector(paywall_sel);
+          removeDOMElement(paywall);
+        }
+        let url = window.location.href;
+        getGoogleWebcache(url, paywall_sel, '', article_sel);
+      }
+    }
   }
 }
 
@@ -6111,7 +6138,7 @@ else if (matchDomain(usa_gannett_domains) || document.querySelector('head > link
     window.location.href = decodeURIComponent(window.location.href.split('?return=')[1]);
 }
 
-else if (matchDomain(usa_hearst_comm_domains) || document.querySelector('script[src*="/treg.hearstnp.com/"]')) {
+else if (matchDomain(usa_hearst_comm_domains) || document.querySelector('head > script[src*="/treg.hearstnp.com/"]')) {
   let overlay = document.querySelector('div > div#modalOuter');
   if (overlay) {
     hideDOMElement(overlay.parentNode);
@@ -6124,7 +6151,7 @@ else if (matchDomain(usa_hearst_comm_domains) || document.querySelector('script[
     hideDOMElement(elem.parentNode.parentNode);
 }
 
-else if ((domain = matchDomain(usa_lee_ent_domains)) || matchDomain(ca_torstar_domains.concat(['abqjournal.com'])) || document.querySelector('script[src*=".townnews.com/"][src*="/tncms/"]')) {
+else if ((domain = matchDomain(usa_lee_ent_domains)) || matchDomain(ca_torstar_domains.concat(['abqjournal.com'])) || document.querySelector('head > meta[name="tncms-access-version"]')) {
   if (window.location.pathname.endsWith('.amp.html')) {
     amp_unhide_access_hide('="hasAccess"', '="NOT hasAccess"', 'amp-ad, amp-embed, .amp-ads-container');
     let elem_hidden = document.querySelectorAll('html[class], body[class]');

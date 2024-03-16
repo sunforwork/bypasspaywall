@@ -9,6 +9,7 @@ Add Pour l'Eco
 Fix Autosport (js)
 Fix Fast Company (premium)
 Fix Mid-Day (amp-redirect)
+Fix ProMedia.nl Group (premium-backup)
 Fix Tech in Asia (json)
 Fix Telegraaf.nl (no article/image)
 Update options (search)

@@ -33,7 +33,7 @@ window.setTimeout(function () {
   let custom_domain = getCookieDomain(hostname);
   let group;
   if (hostname) {
-    if (document.querySelector('script[src*=".medium.com/"]') || matchDomain(['plainenglish.io']))
+    if (document.querySelector('head > link[href*=".medium.com/"]') || matchDomain(['plainenglish.io']))
       group = 'medium.com';
     else if (document.querySelector('head > meta[property="og:image"][content*="beehiiv"]'))
       group = '###_beehiiv';// no fix
@@ -41,9 +41,9 @@ window.setTimeout(function () {
       group = '###_ghost';// no fix
     else if (document.querySelector('head > link[href*="/leaky-paywall"], script[src*="/leaky-paywall"], div[id^="issuem-leaky-paywall-"]'))
       group = '###_wp_leaky_paywall';
-    else if (document.querySelector('script[src*="/substackcdn.com/"], link[rel="stylesheet"][href*="/substackcdn.com/"]'))
+    else if (document.querySelector('head > link[href^="https://substackcdn.com/"]'))
       group = '###_substack_custom';// no fix
-    else if (document.querySelector('script[src*="/wp-content/themes/pmgnews/scripts/promedia.js"], form[action^="https://go.promedia.nl/"]'))
+    else if (document.querySelector('head > link[href="//ppt.promedia.nl"]') || document.querySelector('head > script[src*="/pmgnews/scripts/promedia.js"]'))
       group = '###_nl_promedia';
     else if (hostname.match(/\.com$/) && !matchDomain(['campaignlive.com']) && document.querySelector('span#hmn-logo > a[href="https://www.haymarketmedicalnetwork.com/about"], footer a[href="https://www.haymarketmediaus.com/haymarket-media-inc-privacy-policy/"]'))
       group = '###_uk_haymarket_medical';
@@ -55,7 +55,7 @@ window.setTimeout(function () {
       if (document.querySelector('a[href^="https://austcommunitymedia.my.site.com/"]'))
         group = '###_au_comm_media';
       else if (hostname.endsWith('.com.au')) {
-        if (document.querySelector('li > a[href*=".sevenwestmedia.com.au"]'))
+        if (document.querySelector('head > link[href="https://images.thewest.com.au"]'))
           group = 'thewest.com.au';
         else if (document.querySelector('head > link[rel="dns-prefetch"][href="//static.ew.mmg.navigacloud.com"]'))
           group = '###_au_mmg';
@@ -64,7 +64,7 @@ window.setTimeout(function () {
       if (document.querySelector('head > meta[property="og:image"][content*="/impresa.soy-chile.cl/"]'))
         group = 'elmercurio.com';
     } else if (hostname.match(/\.(de|at|ch)$/) || matchDomain(['horizont.net', 'lebensmittelzeitung.net'])) {
-      if (document.querySelector('script[src*="/dfv.containers.piwik.pro/"]'))
+      if (document.querySelector('head > script[src*="/dfv.containers.piwik.pro/"]'))
         group = '###_de_dfv_medien';
       else if (document.querySelector('div.navigation__personalization > a[href^="https://www.haas-mediengruppe.de/"]'))
         group = '###_de_haas_medien';
@@ -128,15 +128,17 @@ window.setTimeout(function () {
         group = '###_uk_incisive_media';
       else if (document.querySelector('footer li > a[href^="https://www.newsquest.co.uk/"]'))
         group = '###_uk_newsquest';
-      else if (document.querySelector('script[src="https://cdn.blueconic.net/bridgetowermedia.js"], header.site-header > div.btm-header'))
+      else if (document.querySelector('head > script[src="https://cdn.blueconic.net/bridgetowermedia.js"], header.site-header > div.btm-header'))
         group = '###_usa_bridge_tower';
+      else if (document.querySelector('footer#footer li > a[href^="https://cherryroad-media.com"]'))
+        group = '###_usa_cherryroad';// no fix
       else if (document.querySelector('head > link[href*=".gannettdigital.com/"], head > link[href*=".gannett-cdn.com/"]'))
         group = '###_usa_gannett';
-      else if (document.querySelector('script[src*="/treg.hearstnp.com/"]'))
+      else if (document.querySelector('head > script[src*="/treg.hearstnp.com/"]'))
         group = '###_usa_hearst_comm';
-      else if (document.querySelector('script[src*=".townnews.com/"][src*="leetemplates.com/'))
+      else if (document.querySelector('head > script[src*=".townnews.com/leetemplates.com/'))
         group = '###_usa_lee_ent';
-      else if (document.querySelector('script[src*=".townnews.com/"][src*="/tncms/"]'))
+      else if (document.querySelector('head > meta[name="tncms-access-version'))
         group = '###_usa_townnews';
       else if (document.querySelector('head > meta[content^="https://www.mcclatchy-wires.com/"], a[href^="https://classifieds.mcclatchy.com/"], script[src*=".mcclatchyinteractive.com/"]'))
         group = '###_usa_mcc';
