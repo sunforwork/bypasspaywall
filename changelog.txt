@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.6.0.0 (2024-03-17)
 Add Courrier international
 Add GB News
 Add LeMoniteur.fr (Groupe Infopro Digital)
