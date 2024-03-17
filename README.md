@@ -473,6 +473,7 @@ Grouped in options:\
 [Evening Standard](https://www.standard.co.uk) -
 [Financial News](https://www.fnlondon.com) -
 [Financial Times](https://www.ft.com) -
+[GB News](https://www.gbnews.com) -
 [Granta Magazine](https://granta.com) -
 [iNews](https://inews.co.uk) -
 [Investors' Chronicle](https://www.investorschronicle.co.uk) -

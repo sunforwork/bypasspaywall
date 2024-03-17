@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Courrier international
+Add GB News
 Add LeMoniteur.fr (Groupe Infopro Digital)
 Add Observador.pt
 Add Pour l'Eco

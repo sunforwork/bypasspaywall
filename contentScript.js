@@ -2874,7 +2874,7 @@ else if (document.querySelector('head > link[href="//ppt.promedia.nl"]') || docu
 else
   csDone = true;
 
-} else if ((window.location.hostname.match(/\.(ie|uk)$/) && !matchDomain(['investmentweek.co.uk', 'vogue.co.uk'])) || matchDomain(['apollo-magazine.com', 'autosport.com', 'citywire.com', 'fnlondon.com', 'ft.com', 'granta.com', 'scotsman.com', 'tes.com', 'unherd.com'])) {//united kingdom/ireland
+} else if ((window.location.hostname.match(/\.(ie|uk)$/) && !matchDomain(['investmentweek.co.uk', 'vogue.co.uk'])) || matchDomain(['apollo-magazine.com', 'autosport.com', 'citywire.com', 'fnlondon.com', 'ft.com', 'gbnews.com', 'granta.com', 'scotsman.com', 'tes.com', 'unherd.com'])) {//united kingdom/ireland
 
 if (matchDomain('apollo-magazine.com')) {
   let banner = document.querySelector('#subscribe-ribbon');
@@ -3046,6 +3046,11 @@ else if (matchDomain('ft.com')) {
   }
   let banners = document.querySelectorAll('.o-cookie-message, .js-article-ribbon, .o-ads, .o-banner');
   hideDOMElement(...banners);
+}
+
+else if (matchDomain('gbnews.com')) {
+  let ads = document.querySelectorAll('div.ad--billboard, div.ad--placeholder');
+  hideDOMElement(...ads);
 }
 
 else if (matchDomain('granta.com')) {

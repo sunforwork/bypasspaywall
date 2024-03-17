@@ -272,11 +272,6 @@
     "block_regex": "loader-cdn\\.azureedge\\.net",
     "domain": "gazette.com"
   },
-  "Gbnews.com": {
-    "allow_cookies": 1,
-    "block_regex": "\\.piano\\.io",
-    "domain": "gbnews.com"
-  },
   "Gplanet.co.il (not lectures)": {
     "allow_cookies": 1,
     "domain": "gplanet.co.il",

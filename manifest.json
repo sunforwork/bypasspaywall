@@ -282,6 +282,7 @@
     "*://*.ftm.nl/*",
     "*://*.gazetadopovo.com.br/*",
     "*://*.gazzetta.it/*",
+    "*://*.gbnews.com/*",
     "*://*.geelongadvertiser.com.au/*",
     "*://*.gelderlander.nl/*",
     "*://*.genomeweb.com/*",
@@ -845,5 +846,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.5.9.7"
+  "version": "3.5.9.8"
 }

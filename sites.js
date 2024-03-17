@@ -868,6 +868,11 @@ var defaultSites = {
     allow_cookies: 1,
     block_regex: /(\.tinypass\.com\/|cdn\.cxense\.com\/|cdn\.ampproject\.org\/v\d\/amp-subscriptions-.+\.js)/
   },
+  "GB News": {
+    domain: "gbnews.com",
+    allow_cookies: 1,
+    block_regex: /\.piano\.io\//
+  },
   "Glassdoor (regwall)": {
     domain: "glassdoor.com"
   },
