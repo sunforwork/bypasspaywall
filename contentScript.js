@@ -1712,11 +1712,14 @@ else if (matchDomain('expresso.pt')) {
                 try {
                   article.innerHTML = '';
                   let json = JSON.parse(html.split(/window\.__INITIAL_DATA__\s?=\s?/)[1].split(';window.')[0].replace(/":undefined([,}])/g, "\":\"undefined\"$1")).nodes;
-                  let pars;
+                  let pars = [];
                   for (let elem in json) {
                     let item = json[elem];
-                    if (item.type === 'Layout' && item.nodes[0].type === 'MainBody') {
-                      pars = item.nodes[0].nodes[0].data.content.contents;
+                    if (item.type === 'Layout') {
+                      for (let elem of item.nodes) {
+                        if (elem.type === 'MainBody')
+                          pars = elem.nodes[0].data.content.contents;
+                      }
                       break;
                     }
                   }
@@ -5285,6 +5288,7 @@ else if (matchDomain('theathletic.com')) {
       if (body) {
         body.style.overflow = 'visible';
         body.style.position = 'relative';
+        window.scrollTo(0, 1000);
       }
     }
     waitDOMElement('div[id^="slideup-"]', 'DIV', theathletic_func);

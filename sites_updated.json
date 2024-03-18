@@ -30,19 +30,6 @@
     "ld_archive_is": "div#paywall-container|article",
     "upd_version": "3.5.8.3"
   },
-  "Haaretz Group": {
-    "domain": "###_il_haaretz_group",
-    "group": [
-      "haaretz.co.il",
-      "haaretz.com",
-      "themarker.com"
-    ],
-    "allow_cookies": 1,
-    "block_regex": "\\.co(m|\\.il)\\/.+\\/magazine\\/page-.+\\.js",
-    "cs_dompurify": 1,
-    "useragent_custom": "Mozilla/5.0 (Java) outbrain",
-    "upd_version": "3.5.7.2"
-  },
   "Hearst Communications (newspapers)": {
     "domain": "###_usa_hearst_comm",
     "group": [
@@ -58,23 +45,11 @@
     "cs_code": "[{\"cond\":\"div#modals\", \"rm_elem\":1}, {\"cond\":\"body[style]\", \"rm_attrib\":\"style\"}]",
     "upd_version": "3.5.8.5"
   },
-  "Il Sole 24 Ore": {
-    "domain": "ilsole24ore.com",
-    "allow_cookies": 1,
-    "block_regex": "(\\.ilsole24ore\\.com\\/zephr\\/feature|\\.cloudfront\\.net\\/embed\\/widget\\/subx.+\\.js)",
-    "upd_version": "3.5.7.7"
-  },
   "LeMoniteur.fr": {
     "domain": "lemoniteur.fr",
     "allow_cookies": 1,
     "ld_google_webcache": "div.blocPasEncoreAbonne|div.articleContent",
     "upd_version": "3.5.9.7"
-  },
-  "Medscape (regwall)": {
-    "domain": "medscape.com",
-    "allow_cookies": 1,
-    "block_regex": "(\\.medscapestatic\\.com\\/.+\\/medscape-library|\\.wbmdstatic\\.com\\/.+\\/chunk-vendors\\..+)\\.js",
-    "upd_version": "3.5.7.6"
   },
   "Mid-Day": {
     "domain": "mid-day.com",
@@ -115,17 +90,6 @@
     "cs_block": 1,
     "nofix": 1,
     "upd_version": "3.5.8.1"
-  },
-  "SPH Media": {
-    "domain": "###_sg_sph_media",
-    "group": [
-      "straitstimes.com"
-    ],
-    "allow_cookies": 1,
-    "add_ext_link": "div#nocx_paywall_area|main#content",
-    "add_ext_link_type": "archive.is",
-    "ld_archive_is": "div#nocx_paywall_area|main#content",
-    "upd_version": "3.5.7.1"
   },
   "Südkurier": {
     "domain": "suedkurier.de",
