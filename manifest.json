@@ -148,6 +148,7 @@
     "*://*.climbing.com/*",
     "*://*.cmjornal.pt/*",
     "*://*.cnbc.com/*",
+    "*://*.cnn.com/*",
     "*://*.cntraveler.com/*",
     "*://*.columbian.com/*",
     "*://*.commentary.org/*",
@@ -846,5 +847,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.0.1"
+  "version": "3.6.0.2"
 }

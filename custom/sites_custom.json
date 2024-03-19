@@ -71,6 +71,11 @@
     "allow_cookies": 1,
     "domain": "bm-online.de"
   },
+  "Booksandpublishing.com.au": {
+    "allow_cookies": 1,
+    "domain": "booksandpublishing.com.au",
+    "ld_json_url": "article form#loginform|div.paywallblurtext"
+  },
   "Bostonmagazine.com": {
     "allow_cookies": 1,
     "domain": "bostonmagazine.com",
@@ -583,6 +588,11 @@
     "allow_cookies": 1,
     "domain": "nordsee-zeitung.de",
     "ld_google_webcache": "div.UserLoggedInContainer|article"
+  },
+  "Novethic.fr": {
+    "allow_cookies": 1,
+    "domain": "novethic.fr",
+    "ld_json_url": "div#paywall|div.entry-content"
   },
   "Nu.nl": {
     "allow_cookies": 1,

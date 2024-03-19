@@ -32,7 +32,7 @@ window.setTimeout(function () {
   let hostname = window.location.hostname;
   let custom_domain = getCookieDomain(hostname);
   let group;
-  if (hostname) {
+  if (hostname && ext_api.runtime) {
     if (document.querySelector('head > link[href*=".medium.com/"]') || matchDomain(['plainenglish.io']))
       group = 'medium.com';
     else if (document.querySelector('head > meta[property="og:image"][content*="beehiiv"]'))

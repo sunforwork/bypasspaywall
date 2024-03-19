@@ -3955,6 +3955,14 @@ else if (matchDomain('cnbc.com')) {
   }
 }
 
+else if (matchDomain('cnn.com')) {
+  for (let item in window.localStorage)
+    if (item.match(/reg_?wall/i))
+      window.localStorage.removeItem(item);
+  let ads = document.querySelectorAll('div[class^="ad-slot-"], div.container__ads');
+  hideDOMElement(...ads);
+}
+
 else if (matchDomain('columbian.com')) {
   let url = window.location.href;
   func_post = function () {
