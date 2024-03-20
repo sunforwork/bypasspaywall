@@ -1814,10 +1814,10 @@ var defaultSites = {
     domain: "newsweek.com",
     block_regex: /(js\.pelcro\.com\/|cdn\.ampproject\.org\/v\d\/amp-(access|subscriptions)-.+\.js)/
   },
-  "Newsweek.pl (fetch from archive.is)": {
+  "Newsweek.pl": {
     domain: "newsweek.pl",
     allow_cookies: 1,
-    cs_dompurify: 1
+    block_regex: /cdn\.cxense\.com\//
   },
   "NHST Media Group": {
     domain: "###_no_nhst_media",
@@ -2982,7 +2982,7 @@ var defaultSites = {
     domain: "piano.io",
     allow_cookies: 1,
     block_regex_general: /\.piano\.io\/xbuilder\/experience\/execute/,
-    excluded_domains: ["piano.io", "asia.nikkei.com", "businessinsider.com.pl", "hbr.org", "japantimes.co.jp", "nacion.com", "onet.pl"]
+    excluded_domains: ["piano.io", "asia.nikkei.com", "businessinsider.com.pl", "hbr.org", "japantimes.co.jp", "nacion.com", "newsweek.pl", "onet.pl"]
   },
   "Pico.tools": {
     domain: "pico.tools",

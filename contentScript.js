@@ -4813,18 +4813,17 @@ else if (matchDomain('newsweek.com')) {
 }
 
 else if (matchDomain('newsweek.pl')) {
-  let clear_ads = function () {
-    window.setTimeout(function () {
-      let ads = document.querySelectorAll('[class^="pwAds"], .hide-for-paying, div#contentPremiumPlaceholder > span, div.onet-ad');
-      hideDOMElement(...ads);
-    }, 2000);
+  let premium = document.querySelector('div.contentPremium[style]');
+  if (premium) {
+    premium.removeAttribute('class');
+    premium.removeAttribute('style');
   }
-  func_post = function () {
-    clear_ads();
-  }
-  let url = window.location.href;
-  getArchive(url, 'div#contentPremiumPlaceholder', '', 'div#article-content-body');
-  clear_ads();
+  let placeholder = document.querySelector('div#contentPremiumPlaceholder[class]');
+  if (placeholder)
+    placeholder.removeAttribute('class');
+  let ads = document.querySelectorAll('[class^="pwAds"], .hide-for-paying, div.onet-ad, div.bottomBar');
+  console.log(ads);
+  hideDOMElement(...ads);
 }
 
 else if (matchDomain(['nola.com', 'theadvocate.com'])) {
