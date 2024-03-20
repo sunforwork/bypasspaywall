@@ -223,7 +223,7 @@ function prep_regex_str(str, domain = '') {
 }
 
 function addRules(domain, rule) {
-  if (rule.remove_cookies > 0 || rule.hasOwnProperty('remove_cookies_select_hold') || !(rule.hasOwnProperty('allow_cookies') || rule.hasOwnProperty('remove_cookies_select_drop')))
+  if (rule.remove_cookies > 0 || rule.hasOwnProperty('remove_cookies_select_hold') || !(rule.hasOwnProperty('allow_cookies') || rule.hasOwnProperty('remove_cookies_select_drop')) || rule.cs_clear_lclstrg)
     cs_clear_lclstrg.push(domain);
   if (rule.hasOwnProperty('remove_cookies_select_drop') || rule.hasOwnProperty('remove_cookies_select_hold')) {
     rule.allow_cookies = 1;
@@ -542,7 +542,7 @@ ext_api.storage.local.get({
     } else {
       ext_api.management.getSelf(function (result) {
         if ((result.installType === 'development' || (result.installType !== 'development' && !enabledSites.includes('#options_on_update')))) {
-          let new_groups = ['###_fr_groupe_infopro', '###_usa_digiday'];
+          let new_groups = ['###_ch_ringier', '###_fr_groupe_infopro', '###_usa_digiday'];
           let open_options = new_groups.some(group => !enabledSites.includes(group) && grouped_sites[group].some(domain => enabledSites.includes(domain) && !customSites_domains.includes(domain)));
           if (open_options)
             ext_api.runtime.openOptionsPage();

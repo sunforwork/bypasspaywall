@@ -863,17 +863,19 @@ Grouped in options:\
 *[NWT Media](https://www.nwtmedia.se)* sites (opt-in to custom sites)
 
 ##### Switzerland
-[Beobachter](https://www.beobachter.ch) -
-[Handelszeitung](https://www.handelszeitung.ch) -
+[Neue Zürcher Zeitung](https://www.nzz.ch) -
 [Schweizer Monat](https://schweizermonat.ch) -
-[The Market](https://themarket.ch)\
-[Neue Zürcher Zeitung](https://www.nzz.ch)
+[The Market](https://themarket.ch)
 
 Grouped in options:\
 *[CH Media](https://chmedia.ch/marken)* sites like (opt-in to custom sites for unlisted)\
 [Aargauer Zeitung](https://www.aargauerzeitung.ch) -
 [Luzerner Zeitung](https://www.luzernerzeitung.ch) -
-[St. Galler Tagblatt](https://www.tagblatt.ch)
+[St. Galler Tagblatt](https://www.tagblatt.ch)\
+*Ringier Gruppe* sites like\
+[Blick](https://www.blick.ch) -
+[Beobachter](https://www.beobachter.ch) -
+[Handelszeitung](https://www.handelszeitung.ch)
 
 Grouped in options:\
 *[Groupe ESH Médias](https://www.eshmedias.ch)* sites like\

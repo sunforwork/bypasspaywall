@@ -98,6 +98,7 @@
     "*://*.bild.de/*",
     "*://*.billboard.com/*",
     "*://*.bizjournals.com/*",
+    "*://*.blick.ch/*",
     "*://*.bloomberg.com/*",
     "*://*.bloombergadria.com/*",
     "*://*.bnd.com/*",
@@ -847,5 +848,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.0.2"
+  "version": "3.6.0.3"
 }

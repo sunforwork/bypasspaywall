@@ -476,6 +476,8 @@ else {
         let comments = document.querySelector('#comments-load, .comments-module');
         removeDOMElement(comments);
       } else {
+        if (window.location.pathname.includes('/video/') && document.querySelector('div.vms-premium-video'))
+          header_nofix(document.querySelector('div.video-hub'));
         let ads = document.querySelectorAll('.header_ads-container, .ad-block');
         hideDOMElement(...ads);
       }
@@ -816,7 +818,7 @@ else if (matchDomain(['beobachter.ch', 'handelszeitung.ch'])) {
       }
     }
   }
-  let ads = document.querySelectorAll('div.ad-wrapper');
+  let ads = document.querySelectorAll('div.ad-wrapper, div[id^="apn-ad-slot-"]');
   hideDOMElement(...ads);
 }
 
@@ -1537,7 +1539,7 @@ if (matchDomain('etc.se')) {
     let gradient = document.querySelector('div.bg-gradient-white');
     if (gradient)
       gradient.removeAttribute('class');
-    let footer = document.querySelector('footer');
+    let footer = document.querySelector('section > footer');
     removeDOMElement(footer.parentNode);
   }
   let ads = document.querySelectorAll('div[class$="-ad"]');
@@ -4853,8 +4855,7 @@ else if (matchDomain('nytimes.com')) {
 else if (matchDomain('nzherald.co.nz')) {
   // plus code in contentScript_once_var.js (timing)
   let premium_toaster = document.querySelector('#premium-toaster');
-  let ads = document.querySelectorAll('.ad');
-  hideDOMElement(premium_toaster, ...ads);
+  hideDOMElement(premium_toaster);
 }
 
 else if (matchDomain('outlookbusiness.com')) {

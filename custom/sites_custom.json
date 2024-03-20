@@ -60,11 +60,6 @@
     "cs_code": "[{\"cond\":\"div.fp-paywall\", \"rm_elem\":1, \"elems\":[{\"cond\":\"div.fp-content\", \"rm_attrib\":\"class\"}]}]",
     "domain": "bizwest.com"
   },
-  "Blick.ch": {
-    "allow_cookies": 1,
-    "block_regex": "\\.tinypass\\.com",
-    "domain": "blick.ch"
-  },
   "Bm-online.de": {
     "add_ext_link": "div.plenigo-teaser|div.entry-content",
     "add_ext_link_type": "google_search_tool",
