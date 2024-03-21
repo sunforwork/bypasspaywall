@@ -30,6 +30,19 @@
     "ld_archive_is": "div#paywall-container|article",
     "upd_version": "3.5.8.3"
   },
+  "Haaretz Group": {
+    "domain": "###_il_haaretz_group",
+    "group": [
+      "haaretz.co.il",
+      "haaretz.com",
+      "themarker.com"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "{domain}\\/.+\\/page-.+\\.js",
+    "cs_dompurify": 1,
+    "useragent_custom": "Mozilla/5.0 (Java) outbrain",
+    "upd_version": "3.6.0.4"
+  },
   "Hearst Communications (newspapers)": {
     "domain": "###_usa_hearst_comm",
     "group": [

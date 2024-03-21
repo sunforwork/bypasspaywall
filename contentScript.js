@@ -4341,6 +4341,15 @@ else if (matchDomain(['haaretz.co.il', 'haaretz.com', 'themarker.com'])) {
   let article_sel = 'div[data-test="articleBody"], ' + body_wrapper_sel;
   let article_link_sel = 'article header, main.article-page p, ' + article_sel;
   if (window.location.pathname.includes('/.')) {
+    let page_script = document.querySelector('script[src*="/page-"]');
+    if (page_script) {
+      let disabled_items = document.querySelectorAll('section[data-testid="zoidberg-list"], section#comments-section');
+      hideDOMElement(...disabled_items);
+      let noprint = document.querySelectorAll('div.no-print');
+      for (let elem of noprint)
+        if (!elem.hasChildNodes())
+          hideDOMElement(elem);
+    }
     func_post = function () {
       let article_link = document.querySelector(article_link_sel);
       if (article_link) {
@@ -4372,6 +4381,13 @@ else if (matchDomain(['haaretz.co.il', 'haaretz.com', 'themarker.com'])) {
     let inert_links = document.querySelectorAll('article[inert]');
     for (let elem of inert_links)
       elem.removeAttribute('inert');
+  } else if (window.location.pathname === '/error') {
+    window.setTimeout(function () {
+      let params = new URL(window.location).searchParams;
+      let path = params.get('path');
+      if (path)
+        window.location.pathname = path;
+    }, 500);
   }
 }
 
@@ -6404,7 +6420,7 @@ function clearPaywall(paywall, paywall_action) {
 function getGoogleWebcache(url, paywall_sel, paywall_action = '', selector, selector_source = selector) {
   let url_cache = 'https://webcache.googleusercontent.com/search?q=cache:' + url.split(/[#\?]/)[0];
   let paywall = document.querySelectorAll(paywall_sel);
-  if (paywall.length) {
+  if (paywall.length && dompurify_loaded) {
     clearPaywall(paywall, paywall_action);
     csDoneOnce = true;
     replaceDomElementExt(url_cache, true, false, selector, '', selector_source);
@@ -6414,7 +6430,7 @@ function getGoogleWebcache(url, paywall_sel, paywall_action = '', selector, sele
 function getArchive(url, paywall_sel, paywall_action = '', selector, text_fail = '', selector_source = selector, selector_archive = selector) {
   let url_archive = 'https://' + archiveRandomDomain() + '/' + url.split(/[#\?]/)[0];
   let paywall = document.querySelectorAll(paywall_sel);
-  if (paywall.length) {
+  if (paywall.length && dompurify_loaded) {
     clearPaywall(paywall, paywall_action);
     csDoneOnce = true;
     replaceDomElementExt(url_archive, true, false, selector, text_fail, selector_source, selector_archive);

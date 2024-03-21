@@ -5,6 +5,7 @@ Post-release
 Add Blick.ch (Ringier Gruppe)
 Add CNN (regwall)
 Fix Expresso.pt (json)
+Fix Haaretz Group (anti-adblocker)
 Fix Newsweek.pl (css)
 Fix The Athletic (scroll)
 

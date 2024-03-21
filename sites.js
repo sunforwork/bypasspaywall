@@ -1108,7 +1108,7 @@ var defaultSites = {
       "themarker.com"
     ],
     allow_cookies: 1,
-    block_regex: /\.co(m|\.il)\/.+\/magazine\/page-.+\.js/,
+    block_regex: "{domain}\\/.+\\/page-.+\\.js",
     cs_dompurify: 1,
     useragent_custom: "Mozilla/5.0 (Java) outbrain"
   },
