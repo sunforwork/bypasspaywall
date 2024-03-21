@@ -2604,7 +2604,8 @@ var defaultSites = {
   },
   "The News Minute": {
     domain: "thenewsminute.com",
-    allow_cookies: 1
+    allow_cookies: 1,
+    cs_dompurify: 1
   },
   "The Philadelphia Inquirer": {
     domain: "inquirer.com",

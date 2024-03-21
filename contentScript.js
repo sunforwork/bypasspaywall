@@ -3743,23 +3743,15 @@ else if (matchDomain('balkaninsight.com')) {
     getJsonUrl('div.subscribeWrapper', '', 'div.post_teaser', {art_append: true, art_hold: true});
 }
 
-else if (matchDomain('barandbench.com')) {
-  let paywall = document.querySelector('div#paywall-banner');
-  if (paywall) {
+else if (matchDomain(['barandbench.com', 'thenewsminute.com'])) {
+  let paywall = document.querySelector('div[id*="paywall-banner"]');
+  if (paywall && dompurify_loaded) {
     removeDOMElement(paywall);
-    let fade = document.querySelector('div[class^="paywall-story-styles-"]');
-    if (fade)
-      fade.removeAttribute('class');
-    let json_script = getArticleJsonScript();
-    if (json_script) {
-      let json = JSON.parse(json_script.text);
-      if (json) {
-        let json_text = json.articleBody;
-        let content = document.querySelector('div.arr--story-page-card-wrapper');
-        if (json_text && content) {
-          content.innerText = breakText(parseHtmlEntities(json_text));
-        }
-      }
+    let article = document.querySelector('div[class^="paywall-story-"]');
+    if (article) {
+      let article_new = getArticleQuintype();
+      if (article_new && article.parentNode)
+        article.parentNode.replaceChild(article_new, article);
     }
   }
 }
@@ -5619,30 +5611,6 @@ else if (matchDomain('thenewatlantis.com')) {
     article_gated.classList.remove('article-gated');
 }
 
-else if (matchDomain('thenewsminute.com')) {
-  let paywall = document.querySelector('div#paywall-banner');
-  if (paywall) {
-    removeDOMElement(paywall);
-    let fade = document.querySelector('div[class^="paywall-story-styles-"]');
-    if (fade)
-      fade.removeAttribute('class');
-    let json_script = getArticleJsonScript();
-    if (json_script) {
-      let json = JSON.parse(json_script.text);
-      if (json) {
-        let json_text = breakText(parseHtmlEntities(json.articleBody.replace(/\.\./g, '.\r\n\r\n')));
-        let article = document.querySelector('div.arr--story-page-card-wrapper');
-        if (json_text && article) {
-          article.innerHTML = '';
-          let article_new = document.createElement('p');
-          article_new.innerText = json_text;
-          article.appendChild(article_new);
-        }
-      }
-    }
-  }
-}
-
 else if (matchDomain('thepointmag.com')) {
   let overlay = document.querySelectorAll('div.overlay, div#tpopup-');
   removeDOMElement(...overlay);
@@ -6762,6 +6730,64 @@ function getArticleJsonScript() {
   return json_script;
 }
 
+function getArticleQuintype() {
+  let article_new;
+  let json_script = document.querySelector('script#static-page');
+  if (json_script) {
+    try {
+      article_new = document.createElement('div');
+      let parser = new DOMParser();
+      let json = JSON.parse(json_script.text);
+      let pars = json.qt.data.story.cards;
+      for (let par of pars) {
+        let story_elements = par['story-elements'];
+        for (let elem of story_elements) {
+          let par_elem;
+          if (elem.type === 'text' && elem.text && dompurify_loaded) {
+            let doc = parser.parseFromString('<div style="margin: 25px 0px">' + DOMPurify.sanitize(elem.text, dompurify_options) + '</div>', 'text/html');
+            par_elem = doc.querySelector('div');
+          } else if (elem.type === 'image') {
+            if (elem['image-s3-key']) {
+              par_elem = document.createElement('figure');
+              let img = document.createElement('img');
+              img.src = 'https://media.assettype.com/' + elem['image-s3-key'];
+              par_elem.appendChild(img);
+              if (elem.title) {
+                let caption = document.createElement('figcaption');
+                caption.innerText = elem.title;
+                par_elem.appendChild(caption);
+              }
+            }
+          } else if (elem.type === 'jsembed') {
+            if (elem.subtype === 'tweet') {
+              if (elem.metadata && elem.metadata['tweet-url']) {
+                par_elem = document.createElement('a');
+                par_elem.href = par_elem.innerText = elem.metadata['tweet-url'];
+                par_elem.target = '_blank';
+              } else
+                console.log(elem);
+            }
+          } else if (elem.type === 'youtube-video') {
+            if (elem['embed-url']) {
+              par_elem = document.createElement('iframe');
+              par_elem.src = elem['embed-url'];
+              par_elem.style = 'width: 100%; height: 400px;';
+            }
+          } else if (!['widget'].includes(elem.type))
+            console.log(elem);
+          if (par_elem)
+            article_new.appendChild(par_elem);
+        }
+      }
+      if (!article_new.hasChildNodes())
+        article_new = '';
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  return article_new;
+}
+
 function findKeyJson(json, keys, min_val_len = 0) {
   let source = '';
   if (Array.isArray(json)) {
@@ -6889,7 +6915,7 @@ function findOverlap(a, b) {
 }
 
 function breakText(str, headers = false) {
-  str = str.replace(/(?:^|[A-Za-z\"\“\)])(\.|\?|!)(?=[A-ZÖÜ\„\d][A-Za-zÀ-ÿ\„\d]{1,})/gm, "$&\n\n");
+  str = str.replace(/(?:^|[A-Za-z\"\“\)])(\.+|\?|!)(?=[A-ZÖÜ\„\d][A-Za-zÀ-ÿ\„\d]{1,})/gm, "$&\n\n");
   if (headers)
     str = str.replace(/(([a-z]{2,}|[\"\“]))(?=[A-Z](?=[A-Za-zÀ-ÿ]+))/gm, "$&\n\n");
   return str;

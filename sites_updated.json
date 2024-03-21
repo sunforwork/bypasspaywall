@@ -5,6 +5,12 @@
     "block_regex": "\\.tinypass\\.com\\/",
     "upd_version": "3.5.9.3"
   },
+  "Bar and Bench": {
+    "domain": "barandbench.com",
+    "allow_cookies": 1,
+    "ld_json": "div[id*='paywall-banner']|div[class^='paywall-story-']",
+    "upd_version": "3.6.0.5"
+  },
   "Courrier international": {
     "domain": "courrierinternational.com",
     "allow_cookies": 1,
@@ -112,5 +118,11 @@
     "add_ext_link_type": "archive.is",
     "ld_archive_is": "aside.article-paywall|main>article",
     "upd_version": "3.5.8.9"
+  },
+  "The News Minute": {
+    "domain": "thenewsminute.com",
+    "allow_cookies": 1,
+    "ld_json": "div[id*='paywall-banner']|div[class^='paywall-story-']",
+    "upd_version": "3.6.0.5"
   }
 }

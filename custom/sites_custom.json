@@ -357,6 +357,11 @@
     "block_js_inline": "\\.heraldo\\.es\\/noticias",
     "domain": "heraldo.es"
   },
+  "Himalmag.com": {
+    "allow_cookies": 1,
+    "domain": "himalmag.com",
+    "ld_json": "div#metered-paywall-banner|div[class^='paywall-story-']"
+  },
   "Hochparterre.ch": {
     "allow_cookies": 1,
     "cs_code": "[{\"cond\":\"div.pageWrapper\", \"rm_class\":\"pageWrapper\"}]",
