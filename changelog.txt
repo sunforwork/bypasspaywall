@@ -10,6 +10,7 @@ Fix Haaretz Group (anti-adblocker)
 Fix Newsweek.pl (css)
 Fix The Athletic (scroll)
 Fix The News Minute (json)
+Fix WSJ (disable bot/referer)
 
 * v3.6.0.0 (2024-03-17)
 Add Courrier international

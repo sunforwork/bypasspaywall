@@ -2701,12 +2701,10 @@ var defaultSites = {
     allow_cookies: 1,
     cs_dompurify: 1
   },
-  "The Wall Street Journal": {
+  "The Wall Street Journal (fetch from archive.is)": {
     domain: "wsj.com",
     allow_cookies: 1,
     block_regex: /(cdn\.cxense\.com\/|cdn\.ampproject\.org\/v\d\/amp-subscriptions-.+\.js)/,
-    referer_custom: "https://www.drudgereport.com/",
-    useragent: "googlebot",
     cs_dompurify: 1
   },
   "The Washington Post": {

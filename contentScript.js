@@ -6054,8 +6054,6 @@ else if (matchDomain('winnipegfreepress.com')) {
 }
 
 else if (matchDomain('wsj.com')) {
-  if (matchDomain('www.wsj.com'))
-    blockJsReferrer();
   if (window.location.pathname.startsWith('/livecoverage/')) {
     window.setTimeout(function () {
       let paywall = document.querySelector('div#cx-lc-snippet');
@@ -6077,9 +6075,6 @@ else if (matchDomain('wsj.com')) {
     if (url_article || path_article) {
       if (window.location.pathname.startsWith('/amp/')) {
         amp_unhide_subscr_section();
-        let masthead_link = document.querySelector('div.masthead > a[href*="-"]');
-        if (masthead_link)
-          masthead_link.href = 'https://www.wsj.com';
       } else {
         let paywall_sel = '.snippet-promotion, div#cx-snippet-overlay';
         let paywall = document.querySelector(paywall_sel);
@@ -6096,6 +6091,26 @@ else if (matchDomain('wsj.com')) {
             let wsj_pro = paywall.querySelector('a[href^="https://wsjpro.com/"]');
             if (wsj_pro)
               article_sel = 'article';
+            func_post = function () {
+              if (mobile) {
+                let inline_images = document.querySelectorAll('div[style] > figure > picture > img');
+                for (let elem of inline_images) {
+                  elem.style = 'width: 100%;';
+                  elem.removeAttribute('height');
+                  elem.removeAttribute('width');
+                  elem.parentNode.removeAttribute('style');
+                  elem.parentNode.parentNode.parentNode.removeAttribute('style');
+                }
+                let inline_data = document.querySelectorAll('div[data-layout="inline"][style]');
+                for (let elem of inline_data)
+                  elem.removeAttribute('style');
+              }
+              let read_next = document.querySelector('div#cx-what-to-read-next');
+              removeDOMElement(read_next);
+              let inline_wrappers = document.querySelectorAll('div[style*="background-position"] > div[id^="wrapper-INLINEIMM_"]');
+              for (let elem of inline_wrappers)
+                removeDOMElement(elem.parentNode);
+            }
             getArchive(url, paywall_sel, '', article_sel);
           }
         }

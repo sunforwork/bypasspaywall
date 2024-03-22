@@ -124,5 +124,12 @@
     "allow_cookies": 1,
     "ld_json": "div[id*='paywall-banner']|div[class^='paywall-story-']",
     "upd_version": "3.6.0.5"
+  },
+  "The Wall Street Journal": {
+    "domain": "wsj.com",
+    "allow_cookies": 1,
+    "block_regex": "(cdn\\.cxense\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)",
+    "cs_dompurify": 1,
+    "upd_version": "3.6.0.6"
   }
 }
