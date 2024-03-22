@@ -36,6 +36,27 @@
     "ld_archive_is": "div#paywall-container|article",
     "upd_version": "3.5.8.3"
   },
+  "Grupo Clarín": {
+    "domain": "###_ar_grupo_clarin",
+    "group": [
+      "clarin.com",
+      "lavoz.com.ar",
+      "losandes.com.ar"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "\\.clarin\\.com\\/js\\/(meter|zonda-).*\\.js",
+    "exception": [{
+        "domain": "lavoz.com.ar",
+        "allow_cookies": 1,
+        "block_regex": "cdn\\.wyleex\\.com\\/lavoz\\/pw\\.min\\.js"
+      }, {
+        "domain": "losandes.com.ar",
+        "allow_cookies": 1,
+        "block_regex": "cdn\\.lavoz\\.com\\.ar\\/sites\\/.+\\/paywall\\/losandes\\/pw\\.js"
+      }
+    ],
+    "upd_version": "3.6.0.7"
+  },
   "Haaretz Group": {
     "domain": "###_il_haaretz_group",
     "group": [
