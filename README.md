@@ -951,6 +951,7 @@ Grouped in options:\
 [Live Law](https://www.livelaw.in) -
 [LiveMint](https://www.livemint.com) -
 [Mid-Day](https://www.mid-day.com) -
+[Newslaundry](https://www.newslaundry.com) -
 [Outlook](https://www.outlookindia.com) -
 [Outlook Business](https://www.outlookbusiness.com) -
 [Swarajyamag](https://swarajyamag.com) -

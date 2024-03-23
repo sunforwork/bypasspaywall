@@ -491,6 +491,7 @@
     "*://*.news-press.com/*",
     "*://*.newscientist.com/*",
     "*://*.newsday.com/*",
+    "*://*.newslaundry.com/*",
     "*://*.newsobserver.com/*",
     "*://*.newstatesman.com/*",
     "*://*.newsweek.com/*",
@@ -848,5 +849,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.0.7"
+  "version": "3.6.0.8"
 }

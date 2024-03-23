@@ -111,6 +111,12 @@
     "block_regex": "\\.{domain}\\/thenewsbar\\/config",
     "upd_version": "3.5.8.6"
   },
+  "Newslaundry": {
+    "domain": "newslaundry.com",
+    "allow_cookies": 1,
+    "ld_json": "div.FrsvM|div.story-element-text",
+    "upd_version": "3.6.0.8"
+  },
   "Observador.pt": {
     "domain": "observador.pt",
     "allow_cookies": 1,
