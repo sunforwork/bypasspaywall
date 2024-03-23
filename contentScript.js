@@ -2736,7 +2736,7 @@ else if (matchDomain(['lc.nl', 'dvhn.nl']) || document.querySelector('head > lin
   hideDOMElement(...ads);
 }
 
-else if (matchDomain(nl_dpg_adr_domains.concat(['hln.be']))) {
+else if (matchDomain(nl_dpg_adr_domains)) {
   func_post = function () {
     let shades = document.querySelectorAll('div[style*="background-color"][style*=";width"]');
     for (let elem of shades)

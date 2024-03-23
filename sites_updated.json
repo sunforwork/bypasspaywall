@@ -85,6 +85,13 @@
     "cs_code": "[{\"cond\":\"div#modals\", \"rm_elem\":1}, {\"cond\":\"body[style]\", \"rm_attrib\":\"style\"}]",
     "upd_version": "3.5.8.5"
   },
+  "Het Laatste Nieuws": {
+    "domain": "hln.be",
+    "allow_cookies": 1,
+    "cs_block": 1,
+    "nofix": 1,
+    "upd_version": "3.6.0.8"
+  },
   "LeMoniteur.fr": {
     "domain": "lemoniteur.fr",
     "allow_cookies": 1,
