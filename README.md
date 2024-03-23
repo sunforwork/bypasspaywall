@@ -547,6 +547,7 @@ Grouped in options:\
 [Le Grand Continent](https://legrandcontinent.eu) -
 [Le Journal du Dimanche](https://lejdd.fr) -
 [Le Journal du Net](https://www.journaldunet.com) -
+[Le Monde](https://www.lemonde.fr) -
 [Le Nouvel Economiste](https://www.lenouveleconomiste.fr) -
 [Le Parisien](https://www.leparisien.fr) -
 [Le Point](https://www.lepoint.fr) -

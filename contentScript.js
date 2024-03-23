@@ -2043,6 +2043,18 @@ else if (matchDomain(['lejdd.fr', 'parismatch.com', 'public.fr'])) {
   }
 }
 
+else if (matchDomain('lemonde.fr')) {
+  let url = window.location.href;
+  let paywall = document.querySelector('section.paywall');
+  if (paywall) {
+    removeDOMElement(paywall);
+    getArchive(url, 'article');
+    let hide = document.querySelector('section.article__wrapper--premium');
+    if (hide)
+      removeClassesByPrefix(hide, 'article__content--restricted');
+  }
+}
+
 else if (matchDomain('lemoniteur.fr')) {
   let url = window.location.href;
   getGoogleWebcache(url, 'div.blocPasEncoreAbonne', '', 'div.articleContent');

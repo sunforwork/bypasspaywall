@@ -99,6 +99,14 @@
     "nofix": 1,
     "upd_version": "3.6.0.8"
   },
+  "Le Monde": {
+    "domain": "lemonde.fr",
+    "allow_cookies": 1,
+    "add_ext_link": "section.paywall|article",
+    "add_ext_link_type": "archive.is",
+    "ld_archive_is": "section.paywall|article",
+    "upd_version": "3.6.0.8"
+  },
   "LeMoniteur.fr": {
     "domain": "lemoniteur.fr",
     "allow_cookies": 1,
