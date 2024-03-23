@@ -5,6 +5,7 @@ Post-release
 Add Blick.ch (Ringier Gruppe)
 Add CNN (regwall)
 Add Newslaundry
+Remove Bild.de (fix obsolete)
 Remove Hln.be (fix obsolete)
 Fix Bar and Bench (json)
 Fix Clarin (js)

@@ -829,11 +829,6 @@ else if (matchDomain('berliner-zeitung.de')) {
   }, 1000);
 }
 
-else if (matchDomain('bild.de')) {
-  let url = window.location.href;
-  getArchive(url, 'div.offer-module', '', 'article');
-}
-
 else if (matchDomain('boersen-zeitung.de')) {
   window.setTimeout(function () {
     let paywall = document.querySelector('storefront-section#paywall');

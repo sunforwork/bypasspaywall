@@ -11,6 +11,13 @@
     "ld_json": "div[id*='paywall-banner']|div[class^='paywall-story-']",
     "upd_version": "3.6.0.5"
   },
+  "Bild (removed)": {
+    "domain": "bild.de",
+    "allow_cookies": 1,
+    "cs_block": 1,
+    "nofix": 1,
+    "upd_version": "3.6.0.8"
+  },
   "Courrier international": {
     "domain": "courrierinternational.com",
     "allow_cookies": 1,
@@ -85,7 +92,7 @@
     "cs_code": "[{\"cond\":\"div#modals\", \"rm_elem\":1}, {\"cond\":\"body[style]\", \"rm_attrib\":\"style\"}]",
     "upd_version": "3.5.8.5"
   },
-  "Het Laatste Nieuws": {
+  "Het Laatste Nieuws (removed)": {
     "domain": "hln.be",
     "allow_cookies": 1,
     "cs_block": 1,

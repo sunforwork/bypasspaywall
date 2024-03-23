@@ -605,7 +605,6 @@ Grouped in options:\
 [Augsburger Allgemeine](https://www.augsburger-allgemeine.de) -
 [Automobilwoche](https://www.automobilwoche.de) -
 [Berliner Zeitung](https://www.berliner-zeitung.de) -
-[Bild](https://www.bild.de) -
 [Börsen-Zeitung](https://www.boersen-zeitung.de) -
 [Cicero](https://www.cicero.de) -
 [Der Aktionär](https://www.deraktionaer.de) -
