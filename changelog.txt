@@ -4,6 +4,7 @@ Changelog Bypass Paywalls Clean - Chrome
 Post-release
 Add Blick.ch (Ringier Gruppe)
 Add CNN (regwall)
+Add CodeSports.com.au (AU News Corp)
 Add LeMonde.fr
 Add Newslaundry
 Remove Bild.de (fix obsolete)

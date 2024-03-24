@@ -466,7 +466,7 @@ else {
     hideDOMElement(story_generic_iframe, blocker, ...overlays, ...ads);
   } else if (window.location.hostname.endsWith('.com.au')) {
     // Australia News Corp
-    let au_news_corp_domains = ['adelaidenow.com.au', 'cairnspost.com.au', 'couriermail.com.au', 'dailytelegraph.com.au', 'geelongadvertiser.com.au', 'goldcoastbulletin.com.au', 'heraldsun.com.au', 'ntnews.com.au', 'theaustralian.com.au', 'thechronicle.com.au', 'themercury.com.au', 'townsvillebulletin.com.au', 'weeklytimesnow.com.au'];
+    let au_news_corp_domains = ['adelaidenow.com.au', 'cairnspost.com.au', 'codesports.com.au', 'couriermail.com.au', 'dailytelegraph.com.au', 'geelongadvertiser.com.au', 'goldcoastbulletin.com.au', 'heraldsun.com.au', 'ntnews.com.au', 'theaustralian.com.au', 'thechronicle.com.au', 'themercury.com.au', 'townsvillebulletin.com.au', 'weeklytimesnow.com.au'];
     if (matchDomain(au_news_corp_domains)) {
       if (window.location.search.match(/[&\?]amp/)) {
         amp_unhide_subscr_section('amp-ad, amp-embed, [id^="ad-mrec-"]', false);
@@ -4019,7 +4019,7 @@ else if (matchDomain('discovermagazine.com')) {
     let mammoth = document.querySelector('.iXVGnF');
     if (mammoth)
       refreshCurrentTab();
-    let banner = document.querySelector('div.dPURIw');
+    let banner = document.querySelector('div.fIkXwQ');
     hideDOMElement(banner);
   }, 1000);
 }
