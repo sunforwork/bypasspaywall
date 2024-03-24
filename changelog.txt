@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.6.1.0 (2024-03-24)
 Add Blick.ch (Ringier Gruppe)
 Add CNN (regwall)
 Add CodeSports.com.au (AU News Corp)

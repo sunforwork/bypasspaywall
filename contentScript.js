@@ -4862,7 +4862,6 @@ else if (matchDomain('newsweek.pl')) {
   if (placeholder)
     placeholder.removeAttribute('class');
   let ads = document.querySelectorAll('[class^="pwAds"], .hide-for-paying, div.onet-ad, div.bottomBar');
-  console.log(ads);
   hideDOMElement(...ads);
 }
 
