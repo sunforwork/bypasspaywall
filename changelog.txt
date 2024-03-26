@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Ringier Axel Springer Polska
+Remove Hbvl.be (fix obsolete)
 Update custom sites (search)
 
 * v3.6.1.0 (2024-03-24)

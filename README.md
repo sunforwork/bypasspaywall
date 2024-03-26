@@ -764,7 +764,6 @@ Grouped in options:\
 [Trouw](https://www.trouw.nl)\
 *Mediahuis België* sites like\
 [De Standaard](https://www.standaard.be) -
-[Het Belang van Limburg](https://www.hbvl.be) -
 [Het Nieuwsblad](https://www.nieuwsblad.be)\
 *Mediahuis Noord* sites like (opt-in to custom sites for unlisted)\
 [Dagblad van het Noorden](https://www.dvhn.nl) -
