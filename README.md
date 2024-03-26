@@ -791,10 +791,17 @@ Grouped in options:\
 [Upstream](https://www.upstreamonline.com)
 
 ##### Poland
-[Business Insider Polska](https://businessinsider.com.pl) -
-[Newsweek.pl](https://www.newsweek.pl) -
 [Polityka](https://www.polityka.pl) -
 [Rzeczpospolita](https://www.rp.pl)
+
+Grouped in options:\
+*Ringier Axel Springer Polska* sites like\
+[Auto Swiat](https://www.auto-swiat.pl) -
+[Business Insider](https://businessinsider.com.pl) -
+[Forbes](https://www.forbes.pl) -
+[Komputer Swiat](https://www.komputerswiat.pl) -
+[Newsweek](https://www.newsweek.pl) -
+[Onet](https://www.onet.pl)
 
 ##### Portugal
 [Correio da Manhã](https://www.cmjornal.pt) -
@@ -1044,6 +1051,7 @@ Grouped in options:\
 _* free articles only._
 
 [Go to top](#bypass-paywalls-clean-for-chrome)
+
 ### Sites with limited number of free articles
 The free article limit can normally be bypassed by removing cookies for the site.  
 Click on the BPC-icon and then *clear cookies*-button in the popup (for unsupported sites grant host permission for domain).  

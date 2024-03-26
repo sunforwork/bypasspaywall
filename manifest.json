@@ -72,6 +72,7 @@
     "*://*.atlantico.fr/*",
     "*://*.augsburger-allgemeine.de/*",
     "*://*.auto-motor-und-sport.de/*",
+    "*://*.auto-swiat.pl/*",
     "*://*.autocar.co.uk/*",
     "*://*.automobilwoche.de/*",
     "*://*.autonews.com/*",
@@ -271,6 +272,7 @@
     "*://*.fnlondon.com/*",
     "*://*.forbes.com.au/*",
     "*://*.forbes.com/*",
+    "*://*.forbes.pl/*",
     "*://*.foreignaffairs.com/*",
     "*://*.foreignpolicy.com/*",
     "*://*.fortune.com/*",
@@ -379,6 +381,7 @@
     "*://*.kn-online.de/*",
     "*://*.knack.be/*",
     "*://*.knoxnews.com/*",
+    "*://*.komputerswiat.pl/*",
     "*://*.krautreporter.de/*",
     "*://*.ksta.de/*",
     "*://*.kurier.at/*",
@@ -528,6 +531,7 @@
     "*://*.ocregister.com/*",
     "*://*.oklahoman.com/*",
     "*://*.omaha.com/*",
+    "*://*.onet.pl/*",
     "*://*.oprahdaily.com/*",
     "*://*.oregonlive.com/*",
     "*://*.orlandosentinel.com/*",
@@ -849,5 +853,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.1.0"
+  "version": "3.6.1.1"
 }

@@ -1,6 +1,6 @@
 {
   "###_remove_sites": {
-    "cs_code": "dn.se, faithfullymagazine.com, gazetaprawna.pl, lyrik.fr, mailplus.co.uk, portfolio.hu",
+    "cs_code": "dn.se, faithfullymagazine.com, gazetaprawna.pl, lyrik.fr, mailplus.co.uk, onet.pl, portfolio.hu",
     "domain": "###"
   },
   "Abajournal.com": {
@@ -609,11 +609,6 @@
     "block_regex": "\\.odt\\.co\\.nz\\/bwtw\\/api\\/TheWall",
     "cs_code": "[{\"cond\":\"div[property='content:encoded']\", \"rm_attrib\":\"property\"}]",
     "domain": "odt.co.nz"
-  },
-  "Onet.pl": {
-    "allow_cookies": 1,
-    "domain": "onet.pl",
-    "remove_cookies": 1
   },
   "Opovo.com.br": {
     "allow_cookies": 1,

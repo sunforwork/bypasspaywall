@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Ringier Axel Springer Polska
 
 * v3.6.1.0 (2024-03-24)
 Add Blick.ch (Ringier Gruppe)
