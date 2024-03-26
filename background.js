@@ -1604,6 +1604,8 @@ ext_api.runtime.onMessage.addListener(function (message, sender) {
                   let article_new = doc.querySelector(message.data.selector_source);
                   if (article_new)
                     html = article_new.outerHTML;
+                  else
+                    html = '';
                 }
               }
               message.data.html = html;

@@ -510,6 +510,30 @@ function renderOptions() {
   });
 }
 
+function handleSearch() {
+  let search = document.getElementById('search').value.toLowerCase().replace('www.', '');
+  let listItems = document.querySelectorAll('select#sites > option');
+  ext_api.storage.local.get({
+    sites_custom: {}
+  }, function (items) {
+    let sites_custom = items.sites_custom;
+    let grouped_sites = filterObject(sites_custom, function (val, key) {
+      return val.group
+    }, function (val, key) {
+      return [val.domain, val.group.split(',')]
+    });
+    for (let item of listItems) {
+      let itemDomain = sites_custom[item.value].domain;
+      let itemText = item.value.toLowerCase();
+      let itemGroup = itemDomain ? grouped_sites[itemDomain] : '';
+      if (itemText.includes(search) || (itemDomain.includes(search) || (itemGroup && itemGroup.includes(search))))
+        item.style.display = 'block';
+      else
+        item.style.display = 'none';
+    }
+  });
+}
+
 document.addEventListener('DOMContentLoaded', renderOptions);
 document.getElementById('save').addEventListener('click', save_options);
 document.getElementById('sort').addEventListener('click', sort_options);
@@ -521,6 +545,7 @@ document.getElementById('add').addEventListener('click', add_options);
 document.getElementById('delete').addEventListener('click', delete_options);
 document.getElementById('delete_default').addEventListener('click', delete_default_options);
 document.getElementById('edit').addEventListener('click', edit_options);
+document.getElementById('search').addEventListener('input', handleSearch);
 if (custom_switch) {
   document.getElementById('perm_request').addEventListener('click', request_permissions);
   document.getElementById('perm_remove').addEventListener('click', remove_permissions);
