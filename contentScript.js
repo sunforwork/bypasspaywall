@@ -2045,11 +2045,21 @@ else if (matchDomain(['lejdd.fr', 'parismatch.com', 'public.fr'])) {
 }
 
 else if (matchDomain('lemonde.fr')) {
-  let url = window.location.href;
-  let paywall = document.querySelector('section.paywall');
+  let paywall_sel = 'section.paywall';
+  let paywall = document.querySelector(paywall_sel);
   if (paywall) {
-    removeDOMElement(paywall);
-    getArchive(url, 'article');
+    let article_sel = 'article';
+    let figure = document.querySelector('figure.article__media');
+    if (figure) {
+      func_post = function () {
+        let figure_new = document.querySelector('article > figure');
+        let article = document.querySelector(article_sel);
+        if (!figure_new && article)
+          article.firstChild.before(figure);
+      }
+    }
+    let url = window.location.href;
+    getArchive(url, paywall_sel, '', article_sel);
     let hide = document.querySelector('section.article__wrapper--premium');
     if (hide)
       removeClassesByPrefix(hide, 'article__content--restricted');
@@ -5518,7 +5528,7 @@ else if (matchDomain('theglobeandmail.com')) {
 else if (matchDomain(['thehindu.com', 'thehindubusinessline.com'])) {
   if (!window.location.pathname.endsWith('/amp/')) {
     let counter = document.querySelector('#test');
-    let ads = document.querySelectorAll('div.article-ad, div.dfp-ad, div#paywallbox');
+    let ads = document.querySelectorAll('div.article-ad, div.dfp-ad, div#paywallbox, div[id^="piano-art-"]');
     hideDOMElement(counter, ...ads);
   } else {
     let ads = document.querySelectorAll('amp-ad, amp-embed, [class^="height"], [class^="advt"], [id^="piano"]');
