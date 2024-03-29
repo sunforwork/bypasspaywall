@@ -6200,7 +6200,14 @@ else if (matchDomain('wsj.com')) {
             let wsj_pro = paywall.querySelector('a[href^="https://wsjpro.com/"]');
             if (wsj_pro)
               article_sel = 'article';
+            let video_sel = 'div[data-type="video"]';
+            let video = document.querySelector(video_sel);
             func_post = function () {
+              if (video) {
+                let video_new = document.querySelector(video_sel);
+                if (video_new && video_new.parentNode)
+                  video_new.parentNode.replaceChild(video, video_new);
+              }
               if (mobile) {
                 let inline_images = document.querySelectorAll('div[style] > figure > picture > img');
                 for (let elem of inline_images) {
