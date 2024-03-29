@@ -5,6 +5,7 @@ Post-release
 Add American Purpose
 Add Ringier Axel Springer Polska
 Remove Hbvl.be (fix obsolete)
+Fix Humanite.fr
 Fix LeMonde.fr (bug; update rules)
 Fix WSJ (intro video)
 Update custom sites (search)
