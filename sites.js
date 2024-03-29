@@ -86,6 +86,11 @@ var defaultSites = {
     allow_cookies: 1,
     block_regex: /\.tinypass\.com\//
   },
+  "American Purpose": {
+    domain: "americanpurpose.com",
+    allow_cookies: 1,
+    block_regex: /\/steadyhq\.com\//
+  },
   "Apollo Magazine": {
     domain: "apollo-magazine.com"
   },

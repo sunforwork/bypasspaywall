@@ -1,4 +1,10 @@
 {
+  "American Purpose": {
+    "domain": "americanpurpose.com",
+    "allow_cookies": 1,
+    "block_regex": "\\/steadyhq\\.com",
+    "upd_version": "3.6.1.5"
+  },
   "Autosport (free articles only)": {
     "domain": "autosport.com",
     "allow_cookies": 1,

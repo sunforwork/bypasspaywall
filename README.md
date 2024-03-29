@@ -206,6 +206,7 @@ Grouped in options:\
 [Towards Data Science](https://towardsdatascience.com)
 
 [America's Test Kitchen](https://www.americastestkitchen.com) -
+[American Purpose](https://www.americanpurpose.com) -
 [Apollo Magazine](https://www.apollo-magazine.com) -
 [Artforum](https://www.artforum.com) -
 [Artnet](https://www.artnet.com) -
