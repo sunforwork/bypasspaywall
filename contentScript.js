@@ -2747,7 +2747,7 @@ else if (matchDomain(nl_dpg_adr_domains)) {
 }
 
 else if (matchDomain(nl_dpg_media_domains)) {
-  let banners = document.querySelectorAll('div[data-temptation-position^="PAGE_"], div[class^="ad--"], div[class^="_3iyhos"]');
+  let banners = document.querySelectorAll('div[data-temptation-position^="PAGE_"], div[class^="ad--"], div[id^="article_paragraph_"]');
   let paywall = document.querySelectorAll('aside[data-temptation-position^="ARTICLE_"]');
   removeDOMElement(...banners, ...paywall);
 }

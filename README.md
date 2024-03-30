@@ -488,7 +488,6 @@ Grouped in options:\
 [Prospect Magazine](https://www.prospectmagazine.co.uk) -
 [Stylist](https://www.stylist.co.uk) -
 [Tes Magazine](https://www.tes.com/magazine) -
-[The Banker](https://www.thebanker.com) -
 [The Critic](https://thecritic.co.uk) -
 [The Economist](https://www.economist.com) -
 [The Independent](https://www.independent.co.uk) -

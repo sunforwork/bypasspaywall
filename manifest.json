@@ -682,7 +682,6 @@
     "*://*.theatlantic.com/*",
     "*://*.theaustralian.com.au/*",
     "*://*.thebaffler.com/*",
-    "*://*.thebanker.com/*",
     "*://*.thebookseller.com/*",
     "*://*.thebulletin.org/*",
     "*://*.thechronicle.com.au/*",
@@ -853,5 +852,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.1.5"
+  "version": "3.6.1.6"
 }

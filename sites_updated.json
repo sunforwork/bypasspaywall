@@ -117,6 +117,12 @@
     "cs_code": "[{\"cond\":\"div[data-pleco-poool^='paywall']\", \"rm_elem\":1, \"elems\":[ {\"cond\":\"div[data-pleco-transition='fade']\", \"rm_elem\":1}, {\"cond\":\"div[class*='article-'][style]\", \"rm_attrib\":\"style\"}]}]",
     "upd_version": "3.5.9.6"
   },
+  "The Banker (removed)": {
+    "domain": "thebanker.com",
+    "allow_cookies": 1,
+    "nofix": 1,
+    "upd_version": "3.6.1.6"
+  },
   "The News Minute": {
     "domain": "thenewsminute.com",
     "allow_cookies": 1,
