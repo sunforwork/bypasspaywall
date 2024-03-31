@@ -2873,6 +2873,7 @@ var defaultSites = {
   "WirtschaftsWoche (fetch from archive.is)": {
     domain: "wiwo.de",
     allow_cookies: 1,
+    block_regex: /\.wiwo\.de\/js\/.+\/wt\..+\.js/,
     cs_dompurify: 1
   },
   "Wonderzine": {

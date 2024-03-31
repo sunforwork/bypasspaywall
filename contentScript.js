@@ -1449,6 +1449,8 @@ else if (matchDomain('weser-kurier.de')) {
 else if (matchDomain('wiwo.de')) {
   let url = window.location.href;
   getArchive(url, 'div.o-paywall', '', 'article');
+  let banner = document.querySelector('div.c-overscroller');
+  hideDOMElement(banner);
 }
 
 else if (matchDomain('zeit.de')) {
