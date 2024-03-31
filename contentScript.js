@@ -4926,6 +4926,11 @@ else if (matchDomain(pl_ringier_domains)) {
       premium.removeAttribute('class');
       premium.removeAttribute('style');
     }
+    let premium_videos = document.querySelectorAll('div.videoPremiumWrapper > div.embed__mainVideoWrapper');
+    for (let video of premium_videos) {
+      video.removeAttribute('class');
+      video.parentNode.removeAttribute('class');
+    }
     let placeholder = document.querySelector('div#contentPremiumPlaceholder[class]');
     if (placeholder)
       placeholder.removeAttribute('class');
