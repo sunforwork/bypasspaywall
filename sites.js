@@ -2143,7 +2143,7 @@ var defaultSites = {
   "S&P Global": {
     domain: "spglobal.com",
     allow_cookies: 1,
-    block_js_inline: /\.spglobal\.com\//,
+    block_js_inline: /\/www\.spglobal\.com\//,
     block_regex: /\.spglobal\.com\/script\.js/
   },
   "Sábado (not video)": {

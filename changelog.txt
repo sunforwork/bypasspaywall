@@ -2,6 +2,8 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+
+* v3.6.2.0 (2024-04-01)
 Add American Purpose
 Add Ringier Axel Springer Polska
 Remove Hbvl.be (fix obsolete)
