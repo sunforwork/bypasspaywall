@@ -1762,8 +1762,7 @@ var defaultSites = {
   "Neue Zürcher Zeitung (not epaper)": {
     domain: "nzz.ch",
     allow_cookies: 1,
-    block_regex: /(\.piano\.io\/|ens\.nzz\.ch\/.+\/Bootstrap\.js)/,
-    useragent: "googlebot"
+    block_regex: /(\.piano\.io\/|ens\.nzz\.ch\/.+\/Bootstrap\.js)/
   },
   "New Left Review": {
     domain: "newleftreview.org",
@@ -2563,8 +2562,7 @@ var defaultSites = {
   "The Market.ch": {
     domain: "themarket.ch",
     allow_cookies: 1,
-    block_regex: /(\.piano\.io\/|ens\.themarket\.ch\/.+\/Bootstrap\.js)/,
-    useragent: "googlebot"
+    block_regex: /(\.piano\.io\/|ens\.themarket\.ch\/.+\/Bootstrap\.js)/
   },
   "The Nation": {
     domain: "thenation.com",

@@ -1219,7 +1219,10 @@ else if (matchDomain('nw.de')) {
   }
 }
 
-else if (matchDomain('nzz.ch')) {
+else if (matchDomain(['nzz.ch', 'themarket.ch'])) {
+  let fade = document.querySelectorAll('.nzzinteraction');
+  for (let elem of fade)
+    elem.classList.remove('nzzinteraction');
   let ads = document.querySelectorAll('div.resor');
   hideDOMElement(...ads);
 }
@@ -1353,12 +1356,6 @@ else if (matchDomain('tagesspiegel.de')) {
         article.firstChild.before(archiveLink(url));
     }
   }
-}
-
-else if (matchDomain('themarket.ch')) {
-  let fade = document.querySelectorAll('.nzzinteraction');
-  for (let elem of fade)
-    elem.classList.remove('nzzinteraction');
 }
 
 else if (matchDomain('tt.com')) {

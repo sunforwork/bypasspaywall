@@ -73,6 +73,13 @@
     "add_ext_link_type": "archive.is",
     "upd_version": "3.6.1.3"
   },
+  "Neue Zürcher Zeitung": {
+    "domain": "nzz.ch",
+    "allow_cookies": 1,
+    "block_regex": "(\\.piano\\.io\\/|ens\\.nzz\\.ch\\/.+\\/Bootstrap\\.js)",
+    "cs_code": "[{\"cond\":\".nzzinteraction\", \"rm_class\":\"nzzinteraction\"}]",
+    "upd_version": "3.6.2.1"
+  },
   "Newslaundry": {
     "domain": "newslaundry.com",
     "allow_cookies": 1,
