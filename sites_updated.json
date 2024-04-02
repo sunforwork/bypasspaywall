@@ -72,6 +72,22 @@
     "add_ext_link_type": "archive.is",
     "upd_version": "3.6.1.3"
   },
+  "MediaNews Group": {
+    "domain": "###_usa_mng",
+    "group": [
+      "bostonherald.com",
+      "denverpost.com",
+      "eastbaytimes.com",
+      "mercurynews.com",
+      "ocregister.com",
+      "pressenterprise.com",
+      "twincities.com"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "((\\.{domain}\\/script|\\/.+\\/loader\\.min)\\.js|\\.tinypass\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)",
+    "ld_json_url": "#server-paywall|div.body-copy|1",
+    "upd_version": "3.6.2.3"
+  },
   "Neue Zürcher Zeitung": {
     "domain": "nzz.ch",
     "allow_cookies": 1,

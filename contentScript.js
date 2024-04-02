@@ -6352,10 +6352,11 @@ else if ((domain = matchDomain(usa_mcc_domains)) ||
   hideDOMElement(...ads);
 }
 
-else if (matchDomain(usa_mng_domains) || (window.location.href.match(/\.com\/(\d){4}\/(\d){2}\/(\d){2}\/.+\/amp\//) && document.querySelector('footer li > a[href^="https://www.medianewsgroup.com"]'))) {
-  if (window.location.pathname.endsWith('/amp/')) {
+else if (matchDomain(usa_mng_domains) || document.querySelector('head > link[rel="stylesheet"][id^="dfm-accuweather-"], footer li > a[href^="https://www.medianewsgroup.com"]')) {
+  if (window.location.pathname.endsWith('/amp/'))
     amp_unhide_subscr_section('amp-ad, amp-embed, div.ampWrapperInside, div#paywall');
-  }
+  else if (dompurify_loaded)
+    getJsonUrl('#server-paywall', '', 'div.body-copy', {art_append: 1});
 }
 
 else if (document.querySelector('script[src*=".axate.io/"]')) {

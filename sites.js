@@ -1656,7 +1656,8 @@ var defaultSites = {
       "twincities.com"
     ],
     allow_cookies: 1,
-    block_regex: "((\\.{domain}\\/script|\\/.+\\/loader\\.min)\\.js|\\.tinypass\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)"
+    block_regex: "((\\.{domain}\\/script|\\/.+\\/loader\\.min)\\.js|\\.tinypass\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)",
+    cs_dompurify: 1
   },
   "Medienholding Süd (opt-in to custom sites for unlisted)": {
     domain: "###_de_mhs",
