@@ -347,8 +347,8 @@ window.addEventListener('message', function (event) {
 var overlay = document.querySelector('body.didomi-popup-open');
 if (overlay)
   overlay.classList.remove('didomi-popup-open');
-var ads = document.querySelectorAll('div.OUTBRAIN, div[id^="taboola-"], div.ad, div.ads, div.ad-container, div[class*="-ad-container"], div[class*="_ad-container"]');
-hideDOMElement(...ads);
+var ads = 'div.OUTBRAIN, div[id^="taboola-"], div.ad, div.ad-container, div[class*="-ad-container"], div[class*="_ad-container"]';
+hideDOMStyle(ads, 10);
 
 if (!(csDone || csDoneOnce)) {
 
@@ -824,10 +824,13 @@ else if (matchDomain(['beobachter.ch', 'handelszeitung.ch'])) {
 }
 
 else if (matchDomain('berliner-zeitung.de')) {
-  window.setTimeout(function () {
-    let ads = document.querySelectorAll('div[class^="traffective_"], div[class^="article_billboard-"], div[class*="_ad_"], div[class^="outbrain_"]');
-    hideDOMElement(...ads);
-  }, 1000);
+  let ads = 'div[class^="traffective_"], div[class^="article_billboard-"], div[class*="_ad_"], div[class^="outbrain_"]';
+  hideDOMStyle(ads);
+}
+
+else if (matchDomain('bild.de')) {
+  let url = window.location.href;
+  getArchive(url, 'div.offer-module', '', 'article');
 }
 
 else if (matchDomain('boersen-zeitung.de')) {
@@ -1324,18 +1327,14 @@ else if (matchDomain(['stuttgarter-nachrichten.de', 'stuttgarter-zeitung.de', 's
 }
 
 else if (matchDomain('sueddeutsche.de')) {
-  let clear_ads = function () {
-    let ads = document.querySelectorAll('er-ad-slot');
-    hideDOMElement(...ads);
-  }
-  func_post = clear_ads;
   let url = window.location.href;
   if (window.location.pathname.startsWith('/projekte/artikel/')) {
     getArchive(url, 'div.offer-page', '', 'main');
   } else {
     getArchive(url, 'p.sz-article-body__paragraph--reduced', {rm_attrib: 'class'}, 'div[itemprop="articleBody"]');
   }
-  clear_ads();
+  let ads = 'er-ad-slot';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('suedkurier.de')) {
@@ -3348,7 +3347,7 @@ if (matchDomain('abril.com.br')) {
     let amp_ads = document.querySelectorAll('amp-ad, amp-embed');
     hideDOMElement(...amp_ads);
   } else {
-    let ads = document.querySelectorAll('div[class^="ads-"], div.MGID');
+    let ads = document.querySelectorAll('div.ads, div[class^="ads-"], div.MGID');
     hideDOMElement(...ads);
   }
 }
@@ -3499,7 +3498,7 @@ else if (matchDomain('eltribuno.com')) {
 else if (matchDomain('em.com.br')) {
   if (!window.location.pathname.endsWith('/amp.html')) {
     amp_redirect('.news-blocked-content');
-    let ads = document.querySelectorAll('.containerads');
+    let ads = document.querySelectorAll('div.ads, div.containerads');
     hideDOMElement(...ads);
   } else {
     amp_unhide_subscr_section('amp-ad, amp-embed, amp-fx-flying-carpet');
@@ -4772,10 +4771,6 @@ else if (matchDomain('newrepublic.com')) {
 }
 
 else if (matchDomain('newscientist.com')) {
-  let clear_ads = function() {
-    let ads = document.querySelectorAll('div[class*="Advert"]');
-    hideDOMElement(...ads);
-  }
   let url = window.location.href;
   func_post = function () {
     let lazy_images = document.querySelectorAll('img.lazyload[data-src]:not([src])');
@@ -4793,10 +4788,10 @@ else if (matchDomain('newscientist.com')) {
         removeDOMElement(break_post);
       }
     }
-    clear_ads();
   }
   getGoogleWebcache(url, 'section#subscription-barrier', '', 'div.article-body, article');
-  clear_ads();
+  let ads = 'div[class*="Advert"]';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('newsday.com')) {
@@ -4991,19 +4986,13 @@ else if (matchDomain(pl_ringier_domains)) {
       else if (matchDomain('komputerswiat.pl'))
         article_sel = 'div[data-run-module="local/main.adult"] > div:nth-last-of-type(1) article';
       let url = window.location.href;
-      func_post = function () {
-        clear_ads();
-      }
       let url_archive = 'https://' + archiveRandomDomain() + '/' + url.split(/[#\?]/)[0];
       replaceDomElementExt(url_archive, true, false, article_sel);
     }
     waitDOMElement('div.contentPremium div.tp-container-inner', 'DIV', archive_main);
   }
-  function clear_ads() {
-    let ads = document.querySelectorAll('div[class^="AdPlaceholder_"], div[data-placeholder-caption], div[data-run-module$=".floatingAd"], aside[data-ad-container], [class^="pwAds"], .hide-for-paying, div.onet-ad, div.bottomBar');
-    hideDOMElement(...ads);
-  }
-  clear_ads();
+  let ads = 'div[class^="AdPlaceholder_"], div[data-placeholder-caption], div[data-run-module$=".floatingAd"], aside[data-ad-container], [class^="pwAds"], .hide-for-paying, div.onet-ad, div.bottomBar';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('polityka.pl')) {
@@ -5133,7 +5122,7 @@ else if (matchDomain('seekingalpha.com')) {
 else if (matchDomain(sg_sph_media_domains)) {
   let url = window.location.href;
   getArchive(url, 'div#nocx_paywall_area', '', 'main#content');
-  let ads = document.querySelectorAll('div[id^="dfp-ad-"], div.cx_paywall_placeholder');
+  let ads = document.querySelectorAll('div.ads, div[id^="dfp-ad-"], div.cx_paywall_placeholder');
   hideDOMElement(...ads);
 }
 
@@ -6405,6 +6394,16 @@ function hideDOMElement(...elements) {
   for (let element of elements) {
     if (element)
       element.style = 'display:none !important;';
+  }
+}
+
+function hideDOMStyle(selector, id = 1) {
+  let style = document.querySelector('head > style#ext'+ id);
+  if (!style && document.head) {
+    let sheet = document.createElement('style');
+    sheet.id = 'ext' + id;
+    sheet.innerText = selector + ' {display: none !important;}';
+    document.head.appendChild(sheet);
   }
 }
 

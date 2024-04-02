@@ -2,6 +2,7 @@
 Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
+Add Bild.de (fetch from archive.is)
 Fix Nzz.ch (css)
 
 * v3.6.2.0 (2024-04-01)

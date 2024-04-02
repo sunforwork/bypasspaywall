@@ -97,6 +97,7 @@
     "*://*.betternutrition.com/*",
     "*://*.betterprogramming.pub/*",
     "*://*.bicycling.com/*",
+    "*://*.bild.de/*",
     "*://*.billboard.com/*",
     "*://*.bizjournals.com/*",
     "*://*.blick.ch/*",
@@ -852,5 +853,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.2.1"
+  "version": "3.6.2.2"
 }
