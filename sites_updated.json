@@ -11,6 +11,12 @@
     "ld_json": "div[id*='paywall-banner']|div[class^='paywall-story-']",
     "upd_version": "3.6.0.5"
   },
+  "Capital.fr": {
+    "domain": "capital.fr",
+    "allow_cookies": 1,
+    "block_regex": "\\.poool\\.fr",
+    "upd_version": "3.6.2.2"
+  },
   "Grupo Clarín": {
     "domain": "###_ar_grupo_clarin",
     "group": [

@@ -1842,6 +1842,11 @@ else if (matchDomain('autoplus.fr')) {
   hideDOMElement(...ads);
 }
 
+else if (matchDomain('capital.fr')) {
+  let ads = 'div.containerAds, div.ads-introText, div.outbrain-ads';
+  hideDOMStyle(ads);
+}
+
 else if (matchDomain(['challenges.fr', 'sciencesetavenir.fr'])) {
   if (window.location.pathname.endsWith('.amp')) {
     amp_unhide_access_hide('="paywall.access OR cha.access"', '="NOT (paywall.access OR cha.access)"');

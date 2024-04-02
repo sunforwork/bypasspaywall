@@ -340,6 +340,11 @@ var defaultSites = {
     allow_cookies: 1,
     block_regex: /cdn\.ampproject\.org\/v\d\/amp-subscriptions-.+\.js/
   },
+  "Capital.fr": {
+    domain: "capital.fr",
+    allow_cookies: 1,
+    block_regex: /\.poool\.fr\//
+  },
   "CartaCapital": {
     domain: "cartacapital.com.br",
     allow_cookies: 1
