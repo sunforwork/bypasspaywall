@@ -132,6 +132,7 @@ Grouped in options:\
 [Crain's Chicago Business](https://www.chicagobusiness.com) -
 [Crain's Cleveland Business](https://www.crainscleveland.com) -
 [Crain's Detroit Business](https://www.crainsdetroit.com) -
+[Crain's Grand Rapids Business](https://www.crainsgrandrapids.com) -
 [Crain's New York Business](https://www.crainsnewyork.com) -
 [Modern Healthcare](https://www.modernhealthcare.com) -
 [Pensions & Investments](https://www.pionline.com)\

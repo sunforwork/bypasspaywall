@@ -3,6 +3,7 @@ Changelog Bypass Paywalls Clean - Chrome
 
 Post-release
 Add Bild.de (fetch from archive.is)
+Add Crain's Grand Rapids Business
 Add Capital.fr
 Fix MediaNews Group (ld_json_url)
 Fix Nzz.ch (css)

@@ -173,6 +173,7 @@
     "*://*.courrierinternational.com/*",
     "*://*.crainscleveland.com/*",
     "*://*.crainsdetroit.com/*",
+    "*://*.crainsgrandrapids.com/*",
     "*://*.crainsnewyork.com/*",
     "*://*.crikey.com.au/*",
     "*://*.cronista.com/*",
@@ -854,5 +855,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.2.4"
+  "version": "3.6.2.5"
 }

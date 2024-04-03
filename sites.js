@@ -467,6 +467,7 @@ var defaultSites = {
       "chicagobusiness.com",
       "crainscleveland.com",
       "crainsdetroit.com",
+      "crainsgrandrapids.com",
       "crainsnewyork.com",
       "european-rubber-journal.com",
       "genomeweb.com",

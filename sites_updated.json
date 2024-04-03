@@ -17,6 +17,12 @@
     "block_regex": "\\.poool\\.fr",
     "upd_version": "3.6.2.2"
   },
+  "Crain's Grand Rapids Business": {
+    "domain": "crainsgrandrapids.com",
+    "allow_cookies": 1,
+    "block_regex": "js\\.pelcro\\.com",
+    "upd_version": "3.6.2.5"
+  },
   "Grupo Clarín": {
     "domain": "###_ar_grupo_clarin",
     "group": [
