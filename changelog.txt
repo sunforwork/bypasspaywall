@@ -6,6 +6,7 @@ Add Bild.de (fetch from archive.is)
 Add Capital.fr
 Fix MediaNews Group (ld_json_url)
 Fix Nzz.ch (css)
+Fix Seeking Alpha (refresh)
 
 * v3.6.2.0 (2024-04-01)
 Add American Purpose

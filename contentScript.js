@@ -5117,6 +5117,9 @@ else if (matchDomain('seekingalpha.com')) {
     let read_more = document.querySelector('button[id^="continueReadingButton"]');
     if (read_more)
       read_more.click();
+    let lock = document.querySelector('div[data-test-id="after-layout-content-slot"] > div');
+    if (lock)
+      refreshCurrentTab();
   } else {
     amp_unhide_access_hide('*="premium_access OR"', '', '.ad-wrap');
     let paywall = document.querySelector('[class*="paywall-container"]');
