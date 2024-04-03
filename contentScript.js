@@ -5061,6 +5061,11 @@ else if (matchDomain('quora.com')) {
   }, 500);
 }
 
+else if (matchDomain('reuters.com')) {
+  let ads = 'div[data-testid="ResponsiveAdSlot"], div[data-testid="Dianomi"]';
+  hideDOMStyle(ads);
+}
+
 else if (matchDomain('rp.pl')) {
   let url = window.location.href;
   getGoogleWebcache(url, 'div.paywallComponentWrapper', '', 'div.main--content--body');

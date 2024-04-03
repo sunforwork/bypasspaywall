@@ -101,6 +101,12 @@
     "ld_json": "div.FrsvM|div.story-element-text",
     "upd_version": "3.6.0.8"
   },
+  "Reuters": {
+    "domain": "reuters.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.reuters\\.com\\/arc\\/subs\\/p\\.min\\.js",
+    "upd_version": "3.6.2.4"
+  },
   "The Banker (removed)": {
     "domain": "thebanker.com",
     "allow_cookies": 1,

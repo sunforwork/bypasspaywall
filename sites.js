@@ -2069,7 +2069,7 @@ var defaultSites = {
   "Reuters": {
     domain: "reuters.com",
     allow_cookies: 1,
-    block_regex: /\.reuters\.com\/(arc\/subs\/p\.min|pf\/resources\/dist\/reuters\/js\/index)\.js/
+    block_regex: /\.reuters\.com\/arc\/subs\/p\.min\.js/
   },
   "Revue Conflits": {
     domain: "revueconflits.com",
