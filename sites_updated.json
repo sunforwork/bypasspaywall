@@ -119,6 +119,12 @@
     "block_regex": "(\\.piano\\.io\\/xbuilder\\/experience\\/execute|cdn\\.ampproject\\.org(\\/.+)?\\/v\\d\\/amp-(access|loader)-.+\\.js)",
     "upd_version": "3.6.2.6"
   },
+  "Spektrum.de": {
+    "domain": "spektrum.de",
+    "allow_cookies": 1,
+    "cs_code": "[{\"cond\":\"article.pw-premium\", \"rm_class\":\"pw-premium\"}]",
+    "upd_version": "3.6.2.6"
+  },
   "The Banker (removed)": {
     "domain": "thebanker.com",
     "allow_cookies": 1,

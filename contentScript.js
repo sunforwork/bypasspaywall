@@ -1296,6 +1296,12 @@ else if (matchDomain('sn.at')) {
   getGoogleWebcache(url, 'div.article-sections__paywall', '', 'div.article-body-text');
 }
 
+else if (matchDomain('spektrum.de')) {
+  let paywall = document.querySelector('article.pw-premium');
+  if (paywall)
+    paywall.classList.remove('pw-premium');
+}
+
 else if (matchDomain('spiegel.de')) {
   let url = window.location.href;
   getArchive(url, 'div[data-area="paywall"]', '', 'div[data-area="body"]');

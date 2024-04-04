@@ -633,6 +633,7 @@ Grouped in options:\
 [Rhein-Zeitung](https://www.rhein-zeitung.de) -
 [Salzburger Nachrichten](https://www.sn.at) -
 [Schwäbische Zeitung](https://www.schwaebische.de) -
+[Spektrum](https://www.spektrum.de) -
 [Springer Medizin](https://www.springermedizin.de) -
 [Süddeutsche Zeitung](https://www.sueddeutsche.de) -
 [Südkurier](https://www.suedkurier.de) -

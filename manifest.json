@@ -629,6 +629,7 @@
     "*://*.sourcingjournal.com/*",
     "*://*.spectator.co.uk/*",
     "*://*.spectator.com.au/*",
+    "*://*.spektrum.de/*",
     "*://*.spglobal.com/*",
     "*://*.spiegel.de/*",
     "*://*.sportico.com/*",
@@ -855,5 +856,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.2.5"
+  "version": "3.6.2.6"
 }

@@ -2230,6 +2230,10 @@ var defaultSites = {
     domain: "infzm.com",
     allow_cookies: 1
   },
+  "Spektrum.de": {
+    domain: "spektrum.de",
+    allow_cookies: 1
+  },
   "SPH Media (fetch from archive.is)": {
     domain: "###_sg_sph_media",
     group: [
