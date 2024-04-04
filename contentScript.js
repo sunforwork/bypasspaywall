@@ -1657,8 +1657,8 @@ else if (matchDomain(es_grupo_vocento_domains)) {
         removeDOMElement(paywall);
       }
     }
-    let banners = document.querySelectorAll('div.voc-advertising, div.ev-em-modal, span.mega-superior, div.v-adv');
-    hideDOMElement(...banners);
+    let banners = 'div.voc-advertising, div.voc-ob-wrapper, div.voc-discounts, div.ev-em-modal, span.mega-superior, div.v-adv';
+    hideDOMStyle(banners);
   } else {
     amp_unhide_access_hide('="result=\'ALLOW_ACCESS\'"', '="result!=\'ALLOW_ACCESS\'"', 'amp-ad, amp-embed, div.v-adv');
     let body_top = document.querySelector('body#top');
@@ -2035,12 +2035,19 @@ else if (matchDomain('lemonde.fr')) {
   if (paywall) {
     let article_sel = 'article';
     let figure = document.querySelector('figure.article__media');
-    if (figure) {
-      func_post = function () {
+    func_post = function () {
+      if (figure) {
         let figure_new = document.querySelector('article > figure');
         let article = document.querySelector(article_sel);
         if (!figure_new && article)
           article.firstChild.before(figure);
+      }
+      let view_more = document.querySelector('section > label[for^="view-more-"]');
+      if (view_more) {
+        let view_more_div = view_more.parentNode.querySelector('div[style*="max-height"]');
+        if (view_more_div)
+          view_more_div.removeAttribute('style');
+        removeDOMElement(view_more);
       }
     }
     let url = window.location.href;
@@ -5122,9 +5129,6 @@ else if (matchDomain('seekingalpha.com')) {
     let read_more = document.querySelector('button[id^="continueReadingButton"]');
     if (read_more)
       read_more.click();
-    let lock = document.querySelector('div[data-test-id="after-layout-content-slot"] > div');
-    if (lock)
-      refreshCurrentTab();
   } else {
     amp_unhide_access_hide('*="premium_access OR"', '', '.ad-wrap');
     let paywall = document.querySelector('[class*="paywall-container"]');
@@ -5495,6 +5499,8 @@ else if (matchDomain('thedailybeast.com')) {
       }
     }
   }
+  let ads = 'aside.AdSlot, div.FooterAd';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('thediplomat.com')) {

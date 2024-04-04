@@ -2205,10 +2205,10 @@ var defaultSites = {
     allow_cookies: 1,
     block_regex: /\.scientificamerican\.com\/api\/tinypass\.min\.js/
   },
-  "Seeking Alpha": {
+  "Seeking Alpha (do not block TinyPass-script externally)": {
     domain: "seekingalpha.com",
     allow_cookies: 1,
-    block_regex: /(\.tinypass\.com\/|cdn\.ampproject\.org(\/.+)?\/v\d\/amp-(access|loader)-.+\.js)/
+    block_regex: /(\.piano\.io\/xbuilder\/experience\/execute|cdn\.ampproject\.org(\/.+)?\/v\d\/amp-(access|loader)-.+\.js)/
   },
   "Slate": {
     domain: "slate.com",
