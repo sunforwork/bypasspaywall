@@ -40,7 +40,6 @@ var restrictions = {
   'nzz.ch': /^((?!\/epaper\.nzz\.ch\/).)*$/,
   'quora.com': /^((?!quora\.com\/search\?q=).)*$/,
   'science.org': /^((?!\.science\.org\/doi\/).)*$/,
-  'seekingalpha.com': /\/seekingalpha\.com($|\/($|(amp\/)?(article|news)\/|samw\/))/,
   'statista.com': /^((?!\.statista\.com\/study\/).)*$/,
   'study.com': /\/study\.com\/.+\/lesson\//,
   'tagesspiegel.de': /^((?!\/(background|checkpoint)\.tagesspiegel\.de\/).)*$/,
@@ -561,7 +560,7 @@ ext_api.storage.local.get({
   set_rules(sites, updatedSites, customSites);
   if (optin_update)
     check_update();
-  if (enabledSites.includes('#options_optin_update_rules')) {
+  if (enabledSites.includes('#options_optin_update_rules') && self_hosted) {
     sites_updated_json = sites_updated_json_online;
     sites_custom_ext_json = ext_path + 'custom/sites_custom.json';
   }

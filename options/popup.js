@@ -87,12 +87,12 @@ function showArchiveLinks() {
       let url_enc = encodeURIComponent(url);
       let archive_array = {
         'Archive.today': 'https://archive.today?run=1&url=' + url_enc,
-        'Archive.today (renew)': 'https://archive.today?renew=1&url=' + url_enc,
         'Google webcache': 'https://webcache.googleusercontent.com/search?q=cache:' + url_enc,
         'Clearthis.page': 'https://clearthis.page?u=' + url,
         '1ft.io': 'https://1ft.io/' + url,
         'Google Search Tool\n(use online html-viewer - no fix)': 'https://search.google.com/test/rich-results?url=' + url_enc
       };
+      //'Archive.today (renew)': 'https://archive.today?renew=1&url=' + url_enc,
       let archive_id = document.querySelector('span#archive');
       if (archive_id) {
         archive_id.appendChild(document.createTextNode('Open tab in:'));

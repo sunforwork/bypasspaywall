@@ -317,6 +317,7 @@
     "*://*.hindustantimes.com/*",
     "*://*.hindutamil.in/*",
     "*://*.historyextra.com/*",
+    "*://*.hln.be/*",
     "*://*.housebeautiful.com/*",
     "*://*.houstonchronicle.com/*",
     "*://*.hoy.es/*",
@@ -856,5 +857,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.2.6"
+  "version": "3.6.2.7"
 }

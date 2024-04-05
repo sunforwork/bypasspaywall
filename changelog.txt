@@ -5,6 +5,7 @@ Post-release
 Add Bild.de (fetch from archive.is)
 Add Capital.fr
 Add Crain's Grand Rapids Business
+Add Hln.be (fetch from archive.is)
 Add Spektrum.de
 Fix LeMonde.fr (view more)
 Fix MediaNews Group (ld_json_url)
