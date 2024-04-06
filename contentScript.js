@@ -1209,8 +1209,8 @@ else if (matchDomain(['noz.de', 'shz.de', 'svz.de'])) {
   if (window.location.pathname.endsWith('/amp')) {
     amp_unhide_access_hide('="NOT data.reduced"', '="data.reduced"', 'amp-ad, amp-embed, .ads-wrapper, #flying-carpet-wrapper');
   } else {
-    let ads = document.querySelectorAll('div.nozmhn_ad');
-    hideDOMElement(...ads);
+    let ads = 'div.nozmhn_ad';
+    hideDOMStyle(ads);
   }
 }
 
@@ -1222,12 +1222,17 @@ else if (matchDomain('nw.de')) {
   }
 }
 
+else if (matchDomain('nwzonline.de')) {
+  let ads = 'div.adslot';
+  hideDOMStyle(ads);
+}
+
 else if (matchDomain(['nzz.ch', 'themarket.ch'])) {
   let fade = document.querySelectorAll('.nzzinteraction');
   for (let elem of fade)
     elem.classList.remove('nzzinteraction');
-  let ads = document.querySelectorAll('div.resor');
-  hideDOMElement(...ads);
+  let ads = 'div.resor';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('philomag.de')) {
@@ -1849,6 +1854,20 @@ else if (matchDomain('autoplus.fr')) {
 }
 
 else if (matchDomain('capital.fr')) {
+  let videos = document.querySelectorAll('div > div#prisma-player-leader[data-ads-core*="Dailymotion"]');
+  for (let video of videos) {
+    try {
+      let json = JSON.parse(video.getAttribute('data-ads-core'));
+      if (json && json.playerVideoId) {
+        let iframe = document.createElement('iframe');
+        iframe.src = 'https://www.dailymotion.com/embed/video/' + json.playerVideoId;
+        iframe.style = 'height: ' + video.offsetHeight + 'px; width: ' + video.offsetWidth + 'px;';
+        video.parentNode.replaceChild(iframe, video);
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }
   let ads = 'div.containerAds, div.ads-introText, div.outbrain-ads';
   hideDOMStyle(ads);
 }
@@ -4640,8 +4659,11 @@ else if (matchDomain('jpost.com')) {
 }
 
 else if (matchDomain(['latimes.com', 'sandiegouniontribune.com'])) {
-  let ads = document.querySelectorAll('div.google-dfp-ad-wrapper, div.revcontent');
-  hideDOMElement(...ads);
+  let subscribers = pageContains('div.infobox > p.infobox-title', /subscribers/i);
+  if (subscribers.length)
+    removeDOMElement(subscribers[0].parentNode);
+  let ads = 'div.google-dfp-ad-wrapper, div.revcontent';
+  hideDOMStyle(ads);
 }
 
 else if (matchDomain('ledevoir.com')) {

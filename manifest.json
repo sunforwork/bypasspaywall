@@ -521,6 +521,7 @@
     "*://*.ntnews.com.au/*",
     "*://*.nw.de/*",
     "*://*.nwitimes.com/*",
+    "*://*.nwzonline.de/*",
     "*://*.nybooks.com/*",
     "*://*.nydailynews.com/*",
     "*://*.nymag.com/*",
@@ -857,5 +858,5 @@
     "*://archive.vn/*",
     "*://webcache.googleusercontent.com/*"
   ],
-  "version": "3.6.2.7"
+  "version": "3.6.2.8"
 }
