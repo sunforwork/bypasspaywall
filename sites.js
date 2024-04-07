@@ -2784,7 +2784,8 @@ var defaultSites = {
   "Tiroler Tageszeitung": {
     domain: "tt.com",
     allow_cookies: 1,
-    block_regex: /\.piano\.io\/xbuilder\/experience\/execute/
+    block_regex: /\.piano\.io\/xbuilder\/experience\/execute/,
+    cs_dompurify: 1
   },
   "Tribune Publishing Company": {
     domain: "###_usa_tribune",

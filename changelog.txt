@@ -8,11 +8,13 @@ Add Crain's Grand Rapids Business
 Add Hln.be (fetch from archive.is)
 Add Nordwest Zeitung
 Add Spektrum.de
+Fix Exame
 Fix LeMonde.fr (view more)
 Fix MediaNews Group (ld_json_url)
 Fix Nzz.ch (css)
 Fix Reuters (videos)
 Fix Seeking Alpha (xhr)
+Fix Tiroler Tageszeitung (json)
 
 * v3.6.2.0 (2024-04-01)
 Add American Purpose
