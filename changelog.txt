@@ -10,6 +10,7 @@ Add Nordwest Zeitung
 Add Spektrum.de
 Fix Exame
 Fix LeMonde.fr (view more)
+Fix LesEchos.fr (regwall)
 Fix MediaNews Group (ld_json_url)
 Fix Nzz.ch (css)
 Fix Reuters (videos)
